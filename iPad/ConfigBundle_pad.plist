@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Downloader</key>
+	<dict>
+		<key>MarkDownloadedAsRead</key>
+		<array>
+			<integer>1</integer>
+			<string>UISwitch</string>
+		</array>
+	</dict>
+	<key>Security</key>
+	<dict>
+		<key>EnableSSL</key>
+		<array>
+			<integer>1</integer>
+			<string>UISwitch</string>
+		</array>
+	</dict>
+	<key>Appearance</key>
+	<dict>
+		<key>ShowUnreadFirst</key>
+		<array>
+			<integer>1</integer>
+			<string>UISwitch</string>
+		</array>
+		<key>ArticlePreview</key>
+		<array>
+			<integer>1</integer>
+			<string>UISwitch</string>
+		</array>
+		<key>AutoHideForNoItem</key>
+		<array>
+			<integer>1</integer>
+			<string>UISwitch</string>
+		</array>
+	</dict>
+</dict>
+</plist>

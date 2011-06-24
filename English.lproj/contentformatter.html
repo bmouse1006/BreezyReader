@@ -1,0 +1,31 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title></title>
+        <script type="text/javascript">  
+			function ReImgSize(){
+				for (i=0;i<document.images.length;i++){
+					if (document.images[i].width>#BREEZYREADER_IMAGEWIDTH#){
+						document.images[i].height = document.images[i].height*#BREEZYREADER_IMAGEWIDTH#/document.images[i].width;
+						document.images[i].width=#BREEZYREADER_IMAGEWIDTH#;
+					}
+				}
+			}
+			window.onload = ReImgSize;
+        </script>  
+    </head>
+    <body >
+        <table>
+            <tr>
+                <td><font size=4 color="darkblue"><b>%@</b></font></td>
+            </tr>
+			<tr>
+                <td><font size=2 color="gray">By %@</font></td>
+            </tr>
+			<tr>
+                <td><font size=2 color="gray">Published %@</font></td>
+            </tr>
+        </table>
+		<HR COLOR="gray" size=1 >
+        %@
+    </body>
+</html>

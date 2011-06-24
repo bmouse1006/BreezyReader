@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Recommendation</key>
+	<array>
+		<dict>
+			<key>url</key>
+			<string></string>
+			<key>type</key>
+			<string>rec</string>
+			<key>image</key>
+			<string></string>
+			<key>title</key>
+			<string>rec_feeds</string>
+		</dict>
+		<dict>
+			<key>url</key>
+			<string></string>
+			<key>type</key>
+			<string>rec</string>
+			<key>image</key>
+			<string></string>
+			<key>title</key>
+			<string>rec_items</string>
+		</dict>
+	</array>
+	<key>Search</key>
+	<array>
+		<dict>
+			<key>url</key>
+			<string></string>
+			<key>type</key>
+			<string>search</string>
+			<key>image</key>
+			<string></string>
+			<key>title</key>
+			<string>search_feeds</string>
+		</dict>
+		<dict>
+			<key>url</key>
+			<string></string>
+			<key>type</key>
+			<string>search</string>
+			<key>image</key>
+			<string></string>
+			<key>title</key>
+			<string>search_items</string>
+		</dict>
+	</array>
+</dict>
+</plist>

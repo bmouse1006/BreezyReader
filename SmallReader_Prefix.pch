@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'BreezyReader' target in the 'BreezyReader' project
+//
+
+#define __IPHONE_OS_VERSION_MAX_ALLOWED     __IPHONE_4_1
+#define __IPHONE_OS_VERSION_MIN_REQUIRED __IPHONE_3_0
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#ifdef DEBUG_MODE
+	#define DebugLog( s, ... ) NSLog( @"<%p> %@", self, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+	#define DebugLog( s, ... ) 
+#endif
+
+#import "GRNotification.h"

@@ -1,0 +1,3843 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0053)http://code.google.com/p/pyrfeed/wiki/GoogleReaderAPI -->
+<HTML><HEAD><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <LINK rel="icon" type="image/vnd.microsoft.icon" href="http://www.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ <SCRIPT type="text/javascript">
+ 
+ (function(){function a(e){this.t={};this.tick=function(f,c,d){c=d?d:(new Date).getTime();this.t[f]=c};this.tick("start",null,e)}var b=new a;window.jstiming={Timer:a,load:b};try{var g=null;if(window.chrome&&window.chrome.csi)g=Math.floor(window.chrome.csi().pageT);if(g==null)if(window.gtbExternal)g=window.gtbExternal.pageT();if(g==null)if(window.external)g=window.external.pageT;if(g)window.jstiming.pt=g}catch(h){};})();
+
+ 
+ 
+ 
+ var codesite_token = "7e8e2bb0da395469e31ce1a341dca30a";
+ 
+ 
+ var logged_in_user_email = "bmouse1006@gmail.com";
+ 
+ 
+ var relative_base_url = "";
+ 
+ </SCRIPT>
+ 
+ 
+ <TITLE>GoogleReaderAPI - 
+ pyrfeed -
+ 
+ Project Hosting on Google Code</TITLE>
+ 
+ 
+ <LINK type="text/css" rel="stylesheet" href="./GoogleReaderAPI - pyrfeed - Project Hosting on Google Code_files/ph_core.css">
+ 
+ <LINK type="text/css" rel="stylesheet" href="./GoogleReaderAPI - pyrfeed - Project Hosting on Google Code_files/ph_detail.css">
+ 
+ 
+ 
+ <LINK type="application/atom+xml" rel="alternate" href="http://code.google.com/feeds/p/pyrfeed/svnchanges/basic?path=/wiki/GoogleReaderAPI.wiki">
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/10926056450727544732/css/d_ie.css" >
+<![endif]-->
+ <STYLE type="text/css">
+ .menuIcon.off { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ </STYLE>
+<SCRIPT type="text/javascript" src="./GoogleReaderAPI - pyrfeed - Project Hosting on Google Code_files/ga.js"></SCRIPT></HEAD><BODY class="t6">
+ <SCRIPT type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ </SCRIPT>
+ <DIV id="gaia">
+ 
+ <SPAN>
+ 
+ 
+ <B>bmouse1006@gmail.com</B>
+ 
+ 
+ 
+ | <A href="http://code.google.com/u/bmouse1006/" id="projects-dropdown" onclick="return false;"><U>My favorites</U> <SMALL>▼</SMALL></A>
+ 
+ | <A href="http://code.google.com/u/bmouse1006/" onclick="_CS_click(&#39;/gb/ph/profile&#39;);" title="Profile, Updates, and Settings"><U>Profile</U></A>
+ | <A href="https://www.google.com/accounts/Logout?continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpyrfeed%2Fwiki%2FGoogleReaderAPI" onclick="_CS_click(&#39;/gb/ph/signout&#39;);"><U>Sign out</U></A>
+ 
+ </SPAN>
+
+ </DIV>
+ <DIV class="gbh" style="left: 0pt;"></DIV>
+ <DIV class="gbh" style="right: 0pt;"></DIV>
+ 
+ 
+ <DIV style="height: 1px"></DIV>
+<!--[if IE 6]>
+<div style="text-align:center;">
+Support browsers that contribute to open source, try <a href="http://www.firefox.com">Firefox</a> or <a href="http://www.google.com/chrome">Google Chrome</a>.
+</div>
+<![endif]-->
+
+
+
+ <TABLE style="padding:0px; margin: 20px 0px 0px 0px; width:100%" cellpadding="0" cellspacing="0">
+ <TBODY><TR style="height: 58px;">
+ 
+ <TD style="width: 55px; text-align:center;">
+ <A href="http://code.google.com/p/pyrfeed/">
+ 
+ 
+ <IMG src="./GoogleReaderAPI - pyrfeed - Project Hosting on Google Code_files/defaultlogo.png" alt="Logo">
+ 
+ 
+ </A>
+ </TD>
+ 
+ <TD style="padding-left: 0.5em">
+ 
+ <DIV id="pname" style="margin: 0px 0px -3px 0px">
+ <A href="http://code.google.com/p/pyrfeed/" style="text-decoration:none; color:#000">pyrfeed</A>
+ 
+ </DIV>
+ <DIV id="psum">
+ <I><A id="project_summary_link" href="http://code.google.com/p/pyrfeed/" style="text-decoration:none; color:#000">This is a RSS/Atom Reader and Framework. It use GoogleReader as a storage database.</A></I>
+ </DIV>
+ 
+ </TD>
+ <TD style="white-space:nowrap;text-align:right">
+ <FORM action="http://code.google.com/hosting/search">
+ <INPUT size="30" name="q" value="">
+ <INPUT type="submit" name="projectsearch" value="Search projects">
+ </FORM>
+ </TD></TR>
+ </TBODY></TABLE>
+
+
+ 
+<TABLE id="mt" cellspacing="0" cellpadding="0" width="100%" border="0">
+ <TBODY><TR>
+ <TH onclick="if (!cancelBubble) _go(&#39;/p/pyrfeed/&#39;);">
+ <DIV class="tab inactive">
+ <DIV class="round4"></DIV>
+ <DIV class="round2"></DIV>
+ <DIV class="round1"></DIV>
+ <DIV class="box-inner">
+ <A onclick="cancelBubble=true;" href="http://code.google.com/p/pyrfeed/">Project&nbsp;Home</A>
+ </DIV>
+ </DIV>
+ </TH><TD>&nbsp;&nbsp;</TD>
+ 
+ 
+ 
+ 
+ <TH onclick="if (!cancelBubble) _go(&#39;/p/pyrfeed/downloads/list&#39;);">
+ <DIV class="tab inactive">
+ <DIV class="round4"></DIV>
+ <DIV class="round2"></DIV>
+ <DIV class="round1"></DIV>
+ <DIV class="box-inner">
+ <A onclick="cancelBubble=true;" href="http://code.google.com/p/pyrfeed/downloads/list">Downloads</A>
+ </DIV>
+ </DIV>
+ </TH><TD>&nbsp;&nbsp;</TD>
+ 
+ 
+ 
+ 
+ 
+ <TH onclick="if (!cancelBubble) _go(&#39;/p/pyrfeed/w/list&#39;);">
+ <DIV class="tab active">
+ <DIV class="round4"></DIV>
+ <DIV class="round2"></DIV>
+ <DIV class="round1"></DIV>
+ <DIV class="box-inner">
+ <A onclick="cancelBubble=true;" href="http://code.google.com/p/pyrfeed/w/list">Wiki</A>
+ </DIV>
+ </DIV>
+ </TH><TD>&nbsp;&nbsp;</TD>
+ 
+ 
+ 
+ 
+ 
+ <TH onclick="if (!cancelBubble) _go(&#39;/p/pyrfeed/issues/list&#39;);">
+ <DIV class="tab inactive">
+ <DIV class="round4"></DIV>
+ <DIV class="round2"></DIV>
+ <DIV class="round1"></DIV>
+ <DIV class="box-inner">
+ <A onclick="cancelBubble=true;" href="http://code.google.com/p/pyrfeed/issues/list">Issues</A>
+ </DIV>
+ </DIV>
+ </TH><TD>&nbsp;&nbsp;</TD>
+ 
+ 
+ 
+ 
+ 
+ <TH onclick="if (!cancelBubble) _go(&#39;/p/pyrfeed/source/checkout&#39;);">
+ <DIV class="tab inactive">
+ <DIV class="round4"></DIV>
+ <DIV class="round2"></DIV>
+ <DIV class="round1"></DIV>
+ <DIV class="box-inner">
+ <A onclick="cancelBubble=true;" href="http://code.google.com/p/pyrfeed/source/checkout">Source</A>
+ </DIV>
+ </DIV>
+ </TH><TD>&nbsp;&nbsp;</TD>
+ 
+ 
+ <TD width="100%">&nbsp;</TD>
+ </TR>
+</TBODY></TABLE>
+<TABLE cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <TBODY><TR>
+ 
+ 
+ 
+ <TD>
+ <DIV class="issueDetail">
+<DIV class="isf">
+ 
+ <SPAN class="inIssueList"> 
+ <SPAN>Search</SPAN>
+ <FORM action="http://code.google.com/p/pyrfeed/w/list" method="GET" style="display:inline">
+ <SELECT id="can" name="can" style="font-size:92%">
+ <OPTION disabled="disabled">Search within:</OPTION>
+ 
+ <OPTION value="1">&nbsp;All wiki pages</OPTION>
+ <OPTION value="3">&nbsp;Featured pages</OPTION>
+ <OPTION value="2" selected="selected">&nbsp;Current pages</OPTION>
+ 
+ 
+ <OPTION value="4">&nbsp;Deprecated pages</OPTION>
+ 
+ </SELECT>
+ <SPAN>for</SPAN>
+ <SPAN id="qq"><INPUT type="text" size="38" id="q" name="q" value="" style="font-size:92%"></SPAN>
+ 
+ 
+ <INPUT type="submit" value="Search" style="font-size:92%">
+ </FORM>
+ </SPAN>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+</DIV>
+</DIV>
+
+ </TD>
+ 
+ 
+ 
+ 
+ 
+ 
+ <TD height="4" align="right" valign="top" class="bevel-right">
+ <DIV class="round4"></DIV>
+ <DIV class="round2"></DIV>
+ <DIV class="round1"></DIV>
+ </TD>
+ </TR>
+</TBODY></TABLE>
+<SCRIPT type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</SCRIPT>
+
+
+<DIV id="maincol">
+
+ 
+<!-- IE -->
+
+
+
+
+
+
+
+ <STYLE type="text/css">
+ .artifactcomment {
+ margin: .5em 0 0 0;
+ padding: .3em 0 .3em .3em;
+ border-top: 3px solid #c3d9ff;
+ }
+ #commentlist {
+ border-bottom: 3px solid #c3d9ff;
+ }
+ #commentform { padding-top: 1em; }
+ .delcom { background: #e8e8e8 }
+ .commentcontent { margin: 1em 0;}
+ </STYLE>
+
+
+ <DIV id="wikicontent">
+ <TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+ <TBODY><TR>
+ 
+ <TD class="vt" id="wikimaincol" width="100%">
+ 
+ <DIV style="float:right; width:18em" id="wikimeta">
+ <DIV class="pmeta_bubble_bg">
+ <DIV class="round4"></DIV>
+ <DIV class="round2"></DIV>
+ <DIV class="round1"></DIV>
+ <DIV class="box-inner">
+ <TABLE style="padding: 5px">
+ <TBODY><TR><TD colspan="2" style="padding-bottom:5px">Updated <SPAN title="Thu Feb  4 12:03:56 2010">Feb 04, 2010</SPAN>
+ 
+ by <A style="white-space: nowrap" href="http://code.google.com/u/gissehel/">gissehel</A>
+ </TD></TR>
+ 
+ <TR><TH class="vt">Labels:</TH>
+ <TD>
+ 
+ <A href="http://code.google.com/p/pyrfeed/w/list?q=label:Document-API" title="API description">Document-API</A>
+ 
+ </TD>
+ </TR>
+ 
+ 
+ 
+ </TBODY></TABLE>
+ </DIV>
+ <DIV class="round1"></DIV>
+ <DIV class="round2"></DIV>
+ <DIV class="round4"></DIV>
+ </DIV>
+ </DIV>
+ 
+ <DIV id="wikiheader" style="margin-bottom:1em">
+ 
+ <SPAN style="font-size:120%;font-weight:bold">GoogleReaderAPI</SPAN>
+ &nbsp;
+ 
+ 
+ </DIV>
+ <P><STRONG>Note</STRONG> : This document is totally unofficial. You should <STRONG>not</STRONG> rely on anything on this document is you <STRONG>need</STRONG> an exact information. Google Reader API has not officially been released. This document has been made mainly by reverse engeneering the protocol. </P><H1><A name="Requierements">Requierements</A></H1><A name="Requierements"><P>Google Reader API require : </P><UL><LI>http client </LI><LI>GET and POST support </LI><LI>Cookie support </LI><LI>https client </LI></UL><P></P><P>https is only required for identification with Google to get the string called <STRONG>SID</STRONG>. You can rely on an external tool to connect with https and give you SID. If you do, https won't be required. </P><P>Cookie support is only required to pass to all pages the current <STRONG>SID</STRONG>, proof of identification. If are able to change add lines in headers, cookie support is not required anymore. </P><P>Google Reader API may require : </P><UL><LI>http client </LI><LI>GET and POST support </LI><LI>external tool to get <STRONG>SID</STRONG> (using https) </LI><LI>putting <STRONG>SID</STRONG> into header </LI></UL><P></P></A><H1><A name="Glossary">Glossary</A></H1><A name="Glossary"><UL><LI><STRONG>SID</STRONG> : Session ID. SID is generated each time you login to Google (any service). The SID is valid until you logout. </LI><LI><STRONG>user ID</STRONG> : a 20 digits string used by google reader to identify a user. You don't really need to know it. You can always do things a way that user ID is not needed. Usually, when you need that information, just replace it by <STRONG>-</STRONG> and the user ID for current logged user will be used. The user ID never change for a user. </LI><LI><STRONG>token</STRONG> : A token is a special 57 chars string that is used like a session identification, but that expire rather quickly. You usaully need a token for direct api calls that change informations. The token is valid for few minutes/hours. If API call fail (doesn't return OK), you just have to get antoher token. </LI><LI><STRONG>client ID</STRONG> : A string that identify the client used. I suppose it's for logging/stat purpose, or perhaps to make some adjustement for some clients, but I doubt so. old GoogleReader interface use <TT>'lens'</TT>, new one use <TT>'scroll'</TT>. The writer of this document use <TT>'contact:</TT><I>name</I><TT>-at-</TT><I>host</I><TT>'</TT> for interactive test, and use string like <TT>'pyrfeed/0.5.0'</TT> for the software <I>pyrfeed</I> in version <I>0.5.0</I> (like classical identification strings for unix softwares). </LI><LI><STRONG>item</STRONG>/<STRONG>entry</STRONG> : Sometimes called <I>item</I>, sometimes called <I>entry</I>, the item is the base element of a feed. An item usally contain a text, a title and a link, but can contain other properties. An RSS/Atom aggregator aggregates items. (Note: <I>item</I> is the RSS term, while <I>entry</I> is the Atom term). </LI></UL></A><H1><A name="Identification">Identification</A></H1><A name="Identification"></A><P><A name="Identification"><STRONG>Note</STRONG> : According to Mihai Parparita in Google Reader Support Group ( </A><A href="http://groups.google.com/group/Google-Labs-Reader/browse_frm/thread/73a0aed708bcd005" rel="nofollow">http://groups.google.com/group/Google-Labs-Reader/browse_frm/thread/73a0aed708bcd005</A> ), "Authentication is one of the reason why the API hasn't been released yet". You should expect big changes before Google Reader release official API. </P><P>To login, you need to post with https on <A href="https://www.google.com/accounts/ClientLogin" rel="nofollow">https://www.google.com/accounts/ClientLogin</A> with the following POST parameters : </P><P></P><TABLE><TBODY><TR><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>POST parameter name</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>POST parameter value</STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> service </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>'reader'</TT> (!) </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> Email </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>your login</I> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> Passwd </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>your password</I> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> source </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>your client string identification</I> (!) </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> continue </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>'http://www.google.com/'</TT> (!) </TD></TR> </TBODY></TABLE><P></P><BLOCKQUOTE>Of course, <I>your login</I> and <I>your password</I> are login and password you usually use to identify interactively to Google. 
+</BLOCKQUOTE><P>(!) : Those parameters are said to be optional ( <A href="http://code.google.com/p/pyrfeed/issues/detail?id=10" rel="nofollow">http://code.google.com/p/pyrfeed/issues/detail?id=10</A> ). I didn't really tested. It's just how "browsers" identifies themselfs. Note that I consider <I>source</I> and <I>service</I> as a being  informative parameters for google, so I feel like I <STRONG>need</STRONG> to provide them, event if they are not required. Note that I have no idea about what Google or the Google Reader team really think about that. Perhaps they prefer "nothing but a crafted information", or perhaps they don't care. Who knows... </P><BLOCKQUOTE>There is no official rule <I>your client string identification</I>, see <STRONG>client ID</STRONG> in glossary for more informations. 
+</BLOCKQUOTE><P>The POST action will return you a text file, containing lines of the form : </P><BLOCKQUOTE><I>key</I>=<I>value</I> 
+</BLOCKQUOTE><P>You need to extract the <I>value</I> for the <I>key</I> named <TT>SID</TT> </P><P>You then have to add yourself a cookie (well, it look like Google doesn't add it itself) with the following properties : </P><TABLE><TBODY><TR><TD style="border: 1px solid #aaa; padding: 5px;"> name </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>SID</TT> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> domain </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>.google.com</TT> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> path </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>/</TT> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> expires </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>1600000000</TT> </TD></TR> </TBODY></TABLE><P></P><P>If you don't have a http client API that support cookies, you can just add header lines that simulate this cookie in all other requests. This should be the only thing for which cookies are really needed. </P><H1><A name="The_three_layers_for_feed_aggregators">The three layers for feed aggregators</A></H1><A name="The_three_layers_for_feed_aggregators"><P>When you're writting a feed aggregator, you need to write three different layers : </P><UL><LI><STRONG>Layer 1</STRONG> : The layer that parse feeds. It's not the easiest job. "But, it's just xml, it should be easy". It's not. It's just xml. It's just 10 differents and incompatible xml formats (9 RSS formats according to Mark Pilgrim and 1 Atom format). You also perhaps need to understand all non standard feeds that mix some features from differents standards. </LI><LI><STRONG>Layer 2</STRONG> : The database layer. Once you've parsed your feed, you need to store it in a database, and and interesting things like "items read", etc. </LI><LI><STRONG>Layer 3</STRONG> : The user interface. </LI></UL><P></P><P>Google Reader offer in fact acces to <STRONG>layer 1</STRONG> only, or <STRONG>layer 1+2</STRONG> or <STRONG>layer 1+2+3</STRONG>. </P><P>You can have acces to <STRONG>layer 1</STRONG> only. Feeds are parsed by Google Reader, and Google Reader give you access to a new Atom feed that contains same data as the original feed, but always with the same output format : Atom. </P><P>You can have acces to <STRONG>layer 1+2</STRONG>. This documents purpose is about how to acces to <STRONG>layer 1+2</STRONG> from Google Reader in order to create your own <STRONG>layer 3</STRONG>. </P><P>Of course, you have access to <STRONG>layer 1+2+3</STRONG> because it's Google Reader's main product. </P></A><H1><A name="Url_scheme">Url scheme</A></H1><A name="Url_scheme"><P>Except for identification process, all Google Reader url ressources start with <TT>http://www.google.com/reader/</TT>. We'll explain here direct subspaces of thoses urls. </P><P></P><TABLE><TBODY><TR><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>URL prefix</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>Will be refered as, in  this document</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>Description</STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>http://www.google.com/reader/atom/</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>/atom/</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> All urls starting by this prefix return atom feeds. It's the (only?) way to acces to feed contents. This is the way to access <STRONG>layer 1</STRONG> and <STRONG>layer 1+2</STRONG>. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>http://www.google.com/reader/api/0/</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>/api/0/</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> This is the main API entry point. It's used for items/feeds modifications, like adding a <I>Star</I>, deleting a tag, etc. For those modification services, it return either <TT>"OK"</TT> or <TT>""</TT>. It's also used to consult some setting lists like list of feeds, list of tags, list of unread counts by feeds/tags, etc. For those read services, it returns an <I>"object"</I> that can be either <I><A href="http://json.org/" rel="nofollow">json</A></I> or <I>xml that look like json</I>. This is a <STRONG>layer 2</STRONG> only zone. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>http://www.google.com/reader/view/</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>/view/</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> All AJAX interface is done by /view/ urls. AJAX code use <I>/atom/</I> and <I>/api/0/</I> as sublayers to do the job. This is the way to access <STRONG>layer 3</STRONG>. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>http://www.google.com/reader/shared/</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>/shared/</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> All shared pages use this prefix. You obviously don't need authentification to use those pages. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>http://www.google.com/reader/settings/</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>/settings/</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The AJAX application to configure all settings. Mainly manipulate informations from <I>/api/0/</I>. This part of <STRONG>layer 3</STRONG>. </TD></TR> </TBODY></TABLE><P></P></A><H2><A name="Atom_set_of_items">Atom set of items</A></H2><A name="Atom_set_of_items"><P><I>this section is about urls starting by <TT>http://www.google.com/reader/atom/</TT></I> </P><P>The Google Reader database contains a huge number of items. Some of them are in your <I>reading list</I> (understand, they are accessible in Google Reader for your account in "<I>All items</I>" section, and in your feeds/tags). </P><P>The only way to get information related to an item is to "query an atom set of items" that contain this item. </P><P>All items are or were included in feeds. One way to query items is to query the original feed. </P><P>Item are also associated to categories. tags/labels are categories, but also the "read" state is also a category. </P><P>Antoher way to query items is to query all items that are associated to a category. </P><P></P><TABLE><TBODY><TR><TD style="border: 1px solid #aaa; padding: 5px;" colspan="4"> <STRONG>Set of items suffix</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>Description</STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>feed/</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;" colspan="3"> <I>url of a feed</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The url to query a specific feed. It's Google Reader way to access to <STRONG>layer 1</STRONG> only. <STRONG>Note</STRONG> : This service is not related to an account and can be access without registration. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>user/</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>user ID</I><TT>/</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>label/</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>label name</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> This is the suffix to access to all items with a specific label </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>user/</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>user ID</I><TT>/</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>state/com.google/</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>state</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> This is the suffix to access to all items with a specific state like <STRONG><TT>read</TT></STRONG>, <STRONG><TT>starred</TT></STRONG>, etc. </TD></TR> </TBODY></TABLE><P></P><P>You can use <TT>-</TT> as your <STRONG>user ID</STRONG>, it will use the <STRONG>user ID</STRONG> for your currently identified account. </P><P></P><TABLE><TBODY><TR><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>State name</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>State meaning</STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>read</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> A read item will have the state <I>read</I> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>kept-unread</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> Once you've clicked on "keep unread", an item will have the state <I>kept-unread</I> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>fresh</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> When a new item of one of your feeds arrive, it's labeled as <I>fresh</I>. When (<I>need to find what remove fresh label</I>), the fresh label disappear. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>starred</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> When your mark an item with a star, you set it's <I>starred</I> state </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>broadcast</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> When your mark an item as being public, you set it's <I>broadcast</I> state </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>reading-list</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> All you items are flagged with the <I>reading-list</I> state. To see all your items, just ask for items in the state <TT>reading-list</TT> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>tracking-body-link-used</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> Set if you ever clicked on a link in the description of the item. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>tracking-emailed</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> Set if you ever emailed the item to someone. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>tracking-item-link-used</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> Set if you ever clicked on a link in the description of the item. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>tracking-kept-unread</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> Set if you ever mark your read item as unread. </TD></TR> </TBODY></TABLE><P></P><P>If you need to query a set of items in an atom format, just query <TT>http://www.google.com/reader/atom/</TT> followed by the set of items suffix. </P></A><P><A name="Atom_set_of_items">For exemple, if you want to acces to Google Reader's rewritting of the feed </A><A href="http://xkcd.com/rss.xml" rel="nofollow">http://xkcd.com/rss.xml</A> , you can query <A href="http://www.google.com/reader/atom/feed/http://xkcd.com/rss.xml" rel="nofollow">http://www.google.com/reader/atom/feed/http://xkcd.com/rss.xml</A> . This can be done whether you are identified or not. If you want to query all your last read items, you can query <A href="http://www.google.com/reader/atom/user/-/state/com.google/read" rel="nofollow">http://www.google.com/reader/atom/user/-/state/com.google/read</A> . </P><P>Each atom set contains by default 20 items. You can change that, and other behaviour by adding parameters to the query. </P><P></P><TABLE><TBODY><TR><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>GET parameter name</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>python Google Reader API name</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>parameter value</STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>n</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>count</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> Number of items returns in a set of items (default 20) </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>client</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>client</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The default client name (see <I>client</I> in glossary) </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>r</TT>  </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>order</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> By default, items starts now, and go back time. You can change that by specifying this key to the value <TT>o</TT> (default value is <TT>d</TT>) </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>ot</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>start_time</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The time (unix time, number of seconds from January 1st, 1970 00:00 UTC) from which to start to get items. Only works for order r=o mode. If the time is older than one month ago, one month ago will be used instead. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>ck</TT>  </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>timestamp</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> current time stamp, probably used as a quick hack to be sure that cache won't be triggered. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>xt</TT>  </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>exclude_target</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> another set of items suffix, to be excluded from the query. For exemple, you can query all items from a feed that are not flagged as read. This value start with <TT>feed/</TT> or  <TT>user/</TT>, not with <TT>!http://</TT> or <TT>www</TT> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>c</TT>  </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>continuation</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> a string used for <I>continuation</I> process. Each feed return not all items, but only a certain number of items. You'll find in the atom feed (under the name <TT>gr:continuation</TT>) a string called continuation. Just add that string as argument for this parameter, and you'll retrieve next items. </TD></TR> </TBODY></TABLE><P></P><P><STRONG>Note</STRONG> : <I>continuation</I> has no meaning, it's just a string to help you find next items. You should not rely on its value to do anything else than that (even if this document will explain how that continuation is generated). </P><P><STRONG>Exemple</STRONG> : </P><BLOCKQUOTE>All the 17 first items items from xkcd.com main feed that are not read can be found on the url : <A href="http://www.google.com/reader/atom/feed/http://xkcd.com/rss.xml?n=17&ck=1169900000&xt=user/-/state/com.google/read" rel="nofollow">http://www.google.com/reader/atom/feed/http://xkcd.com/rss.xml?n=17&amp;ck=1169900000&amp;xt=user/-/state/com.google/read</A> 
+</BLOCKQUOTE><P></P><H2><A name="API">API</A></H2><A name="API"><P><I>this section is about urls starting by <TT>http://www.google.com/reader/api/0/</TT></I> </P><P>There are two knids of API commands: </P><UL><LI>edit commands </LI><LI>list commands </LI></UL><P></P><P>The number 0 is probably the API version number. Using that number, it will allow Google Reader to change API while stile maintaining an old API for quite some time. </P></A><H3><A name="Edit_API">Edit API</A></H3><A name="Edit_API"></A><P><A name="Edit_API">To edit anything in the Google Reader database, you need a token (see glossary). To get a token, just go to </A><A href="http://www.google.com/reader/api/0/token" rel="nofollow">http://www.google.com/reader/api/0/token</A> . This url will return a string containing 57 chars. It's the token. </P><P>The token url takes optional GET arguments: </P><P></P><TABLE><TBODY><TR><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>GET parameter name</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>python Google Reader API name</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>parameter value</STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>ck</TT>  </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>timestamp</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> current time stamp, probably used as a quick hack to be sure that cache won't be triggered. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>client</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>client</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The default client name (see <I>client</I> in glossary) </TD></TR> </TBODY></TABLE><P></P><P>All edit commands use <TT>POST</TT> to retrieve information (note that GET won't work) but they also take a <TT>GET</TT> argument. </P><P></P><TABLE><TBODY><TR><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>GET parameter name</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>python Google Reader API name</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>parameter value</STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>client</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>client</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The default client name (see <I>client</I> in glossary) </TD></TR> </TBODY></TABLE><P></P><P>All edit commands will return either an empty string if failled, either the string "<TT>OK</TT>". If failed, your token has perhaps expires. You can just try to get a new token. If it still doesn't return OK, it's a failure. </P><P>Table of POST aguments for the <TT>subscription/edit</TT> edit call. </P><P></P><TABLE><TBODY><TR><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>API call function</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>POST parameter name</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>python Google Reader API name</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>parameter value</STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;" colspan="4">  <STRONG><TT>subscription/edit</TT></STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>s</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>feed</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The subscription feed name, in the form <TT>feed/</TT><I>...</I> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>t</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>title</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The subscription title, used when adding a new subscription or when changing a subscription name </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>a</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>add</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> A label to add (a label on a subscription is called a folder) in the form <TT>user/</TT><I>...</I> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>r</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>remove</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> A label to remove (a label on a subscription is called a folder) in the form <TT>user/</TT><I>...</I> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>ac</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>action</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The actions to do. Know values are <TT>edit</TT> (to add/remove label/forlder to a feed), 'subscribe', 'unsubscribe' </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>token</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>token</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The mandatory up to date token </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;" colspan="4">  <STRONG><TT>tag/edit</TT></STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>s</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>feed</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The tag/folder name seen as a feed </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>pub</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>public</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> A boolean string <TT>true</TT> or <TT>false</TT>. When <TT>true</TT>, the tag/folder will become public. When <TT>false</TT>, the tag/folder will stop being public. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>token</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>token</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The mandatory up to date token </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;" colspan="4">  <STRONG><TT>edit-tag</TT></STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>i</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>entry</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The item/entry to edit, in the form <TT>tag:google.com,2005:reader/item/</TT><I>...</I> ( it's the xml id of the <TT>entry</TT> tag of the atom feed) </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>a</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>add</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> A label/state to add (a label on an item/entry is called a tag) in the form <TT>user/</TT><I>...</I> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>r</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>remove</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> A label/state to remove (a label on an item/entry is called a tag) in the form <TT>user/</TT><I>...</I></TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>ac</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>action</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The actions to do. Know value is <TT>edit</TT> (to add/remove label/forlder to a feed) </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>token</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>token</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The mandatory up to date token </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;" colspan="4">  <STRONG><TT>disable-tag</TT></STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>s</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>feed</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The tag/folder name seen as a feed </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>ac</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>action</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The actions to do. Know value is <TT>disable-tags</TT> (to remove a tag/folder) </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>token</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>token</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The mandatory up to date token </TD></TR> </TBODY></TABLE><P></P><P>Exemples : </P><BLOCKQUOTE>To subscribe a new feed (for exemple <A href="http://xkcd.com/rss.xml" rel="nofollow">http://xkcd.com/rss.xml</A>), you can call: 
+</BLOCKQUOTE><P></P><BLOCKQUOTE><A href="http://www.google.com/reader/api/0/subscription/edit?client=contact:myname-at-gmail" rel="nofollow">http://www.google.com/reader/api/0/subscription/edit?client=contact:myname-at-gmail</A> 
+</BLOCKQUOTE><BLOCKQUOTE>with POST arguments : <TT>s=http://xkcd.com/rss.xml&amp;ac=subscribe&amp;token=</TT><I>here-put-a-valid-token</I> 
+</BLOCKQUOTE><BLOCKQUOTE>To add that feed in a folder (for exemple "comics"), you can call: 
+</BLOCKQUOTE><BLOCKQUOTE><A href="http://www.google.com/reader/api/0/subscription/edit?client=contact:myname-at-gmail" rel="nofollow">http://www.google.com/reader/api/0/subscription/edit?client=contact:myname-at-gmail</A> 
+</BLOCKQUOTE><BLOCKQUOTE>with POST arguments : <TT>s=http://xkcd.com/rss.xml&amp;ac=edit&amp;a=user/-/label/comics&amp;token=</TT><I>here-put-a-valid-token</I> 
+</BLOCKQUOTE><P>Open questions that needs to be fixed : </P><UL><LI>Are <TT>tag/edit</TT> and <TT>edit-tag</TT> just aliases ? </LI><LI>Why does removing a tag/folder doesn't take an action while every other calls take actions ? </LI><LI>Why is there several urls, it seems redundant with the action parameter ? </LI></UL><P></P><H3><A name="List_API">List API</A></H3><A name="List_API"><P>All those calls can be used with GET requests. </P><P></P><TABLE><TBODY><TR><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>API call function</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>GET parameter name</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>python Google Reader API name</STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <STRONG>parameter value</STRONG>/<STRONG>API call description</STRONG> </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;" colspan="3"> <STRONG><TT>tag/list</TT></STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> Get the tag list and shared status for each tag. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>output</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>output</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The format of the returned output. may be 'json' or 'xml' </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>ck</TT>  </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>timestamp</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> current time stamp, probably used as a quick hack to be sure that cache won't be triggered. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>client</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>client</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The default client name (see <I>client</I> in glossary) </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;" colspan="3"> <STRONG><TT>subscription/list</TT></STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> Get the subscription list and shared status for each tag. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>output</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>output</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The format of the returned output. may be 'json' or 'xml' </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>ck</TT>  </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>timestamp</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> current time stamp, probably used as a quick hack to be sure that cache won't be triggered. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>client</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>client</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The default client name (see <I>client</I> in glossary) </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;" colspan="3"> <STRONG><TT>preference/list</TT></STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> Get the preference list (configuration of the account for GoogleReader). </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>output</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>output</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The format of the returned output. may be 'json' or 'xml' </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>ck</TT>  </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>timestamp</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> current time stamp, probably used as a quick hack to be sure that cache won't be triggered. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>client</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>client</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The default client name (see <I>client</I> in glossary) </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;" colspan="3"> <STRONG><TT>unread-count</TT></STRONG> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> Get all the information about where are located (in term of subscriptions and tags/folders) the unread items. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>all</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>all</I>       </TD><TD style="border: 1px solid #aaa; padding: 5px;"> 'true' if whole subscriptions/tags are required. (<STRONG>TODO</STRONG>: <I>Needs to check other values</I>)  </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>output</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>output</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The format of the returned output. may be 'json' or 'xml' </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>ck</TT>  </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>timestamp</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> current time stamp, probably used as a quick hack to be sure that cache won't be triggered. </TD></TR> <TR><TD style="border: 1px solid #aaa; padding: 5px;"> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <TT>client</TT> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> <I>client</I> </TD><TD style="border: 1px solid #aaa; padding: 5px;"> The default client name (see <I>client</I> in glossary) </TD></TR> </TBODY></TABLE><P></P></A><H2><A name="Viewer">Viewer</A></H2><A name="Viewer"><P><I>this section is about urls starting by <TT>http://www.google.com/reader/view/</TT></I> </P></A><P><A name="Viewer">All url starting by </A><A href="http://www.google.com/reader/view/" rel="nofollow">http://www.google.com/reader/view/</A> are html pages that use AJAX code to show atom feeds found from <A href="http://www.google.com/reader/atom/" rel="nofollow">http://www.google.com/reader/atom/</A>. </P><P>You can append to the base url any <I>set of items suffix</I> to view only that set of items. Note however that GET parameters are not valid (in fact are ignored) for those urls. </P><P>You can browse directly all your items labeled "important" by going to <A href="http://www.google.com/reader/view/user/-/label/important" rel="nofollow">http://www.google.com/reader/view/user/-/label/important</A> </P><P>You can browse directly all items from xkcd main feed by going to <A href="http://www.google.com/reader/view/feed/http://xkcd.com/rss.xml" rel="nofollow">http://www.google.com/reader/view/feed/http://xkcd.com/rss.xml</A> even if you didn't subscribed to it (in which case there will be a button "Subscribe" on the top of the screen). Note however that if you're not identified, you'll browse the feed using the old interface (lens) and not the new on (scroll). </P><H2><A name="Misc">Misc</A></H2><A name="Misc"><P><I>TODO: Text needs to be written</I> <I>TODO: mainly /share/</I> </P></A><H1><A name="References">References</A></H1><A name="References"></A><UL><A name="References"></A><LI><A href="http://www.niallkennedy.com/blog/archives/2005/12/google_reader_a.html" rel="nofollow">http://www.niallkennedy.com/blog/archives/2005/12/google_reader_a.html</A> : First document being consided as an unofficial Google Reader API. </LI><LI><A href="http://www.xml.com/pub/a/2002/12/18/dive-into-xml.html" rel="nofollow">http://www.xml.com/pub/a/2002/12/18/dive-into-xml.html</A> : Mark Pilgrim explaining the mess with all RSS formats </LI></UL><P><IMG src="http://pyrfeed.yi.org/image.png"> </P>
+ </TD> 
+ </TR>
+ </TBODY></TABLE>
+ </DIV>
+
+
+ 
+ <BR>
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+<DIV class="collapse">
+
+
+ 
+
+
+<DIV id="commentlist">
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/pricemonkeys/">pricemonkeys</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Jul 15 18:42:56 2007">Jul 15, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>The api to mark the item as 'read' has slightly changed as on July 15, 2007. The name of the post parameter for token is 'T' and not 'token'.  </P><P>Also to mark the item as 'read', you would need to pass parameter 'ac' with value 'edit-tags' and 's' with value of the feed url containing the item. </P><P>for e.g. </P><BLOCKQUOTE>$req = POST $baseUrl, 
+[ 
+<BLOCKQUOTE>i =&gt; $guid, 
+s =&gt; $url, 
+a =&gt; 'user/-/state/com.google/read', 
+ac =&gt; 'edit-tags', 
+T 	=&gt; 	$token 
+</BLOCKQUOTE>]; 
+</BLOCKQUOTE><P></P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/pricemonkeys/">pricemonkeys</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Jul 15 18:43:10 2007">Jul 15, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>The api to mark the item as 'read' has slightly changed as on July 15, 2007. The name of the post parameter for token is 'T' and not 'token'.  </P><P>Also to mark the item as 'read', you would need to pass parameter 'ac' with value 'edit-tags' and 's' with value of the feed url containing the item. </P><P>for e.g. </P><BLOCKQUOTE>$req = POST $baseUrl, 
+[ 
+<BLOCKQUOTE>i =&gt; $guid, 
+s =&gt; $url, 
+a =&gt; 'user/-/state/com.google/read', 
+ac =&gt; 'edit-tags', 
+T 	=&gt; 	$token 
+</BLOCKQUOTE>]; 
+</BLOCKQUOTE><P></P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/pricemonkeys/">pricemonkeys</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Jul 15 18:44:31 2007">Jul 15, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>The api to mark the item as 'read' has slightly changed as on July 15, 2007. The name of the post parameter for token is 'T' and not 'token'.  </P><P>Also to mark the item as 'read', you would need to pass parameter 'ac' with value 'edit-tags' and 's' with value of the feed url containing the item. </P><P>for e.g. </P><BLOCKQUOTE>$req = POST $baseUrl, 
+[ 
+<BLOCKQUOTE>i =&gt; $guid, 
+s =&gt; $url, 
+a =&gt; 'user/-/state/com.google/read', 
+ac =&gt; 'edit-tags', 
+T 	=&gt; 	$token 
+</BLOCKQUOTE>]; 
+</BLOCKQUOTE><P></P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/pricemonkeys/">pricemonkeys</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Jul 15 19:04:55 2007">Jul 15, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>The api to mark the item as 'read' has slightly changed as on July 15, 2007. The name of the post parameter for token is 'T' and not 'token'.  </P><P>Also to mark the item as 'read', you would need to pass parameter 'ac' with value 'edit-tags' and 's' with value of the feed url containing the item. </P><P>for e.g. </P><BLOCKQUOTE>$req = POST $baseUrl, 
+[ 
+<BLOCKQUOTE>i =&gt; $guid, 
+s =&gt; $url, 
+a =&gt; 'user/-/state/com.google/read', 
+ac =&gt; 'edit-tags', 
+T 	=&gt; 	$token 
+</BLOCKQUOTE>]; 
+</BLOCKQUOTE><P></P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/fitzgeraldsteele/">fitzgeraldsteele</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Sep  5 20:27:20 2007">Sep 05, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Thanks for posting this!  Seems like the API has changed a bit since Niall Kennedy's original article. </P><P>In playing with the API tonight, it seems like you have to be logged on in order to get any feeds from GReader...even the <A href="http://www.google.com/reader/atom/feed/http://xkcd.com/rss.xml" rel="nofollow">http://www.google.com/reader/atom/feed/http://xkcd.com/rss.xml</A> link above seems to require that you are logged in.  Has anyone else noticed the same thing? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/127.0.0.69/">127.0.0.69</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Sep 12 10:58:01 2007">Sep 12, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>From the doc, I can't find a way to get the list of feeds subscribed... is that possible? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/127.0.0.69/">127.0.0.69</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Sep 12 11:02:45 2007">Sep 12, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>From the doc, I can't find a way to get the list of feeds subscribed... is that possible? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/127.0.0.69/">127.0.0.69</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Sep 12 11:02:48 2007">Sep 12, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>From the doc, I can't find a way to get the list of feeds subscribed... is that possible? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/127.0.0.69/">127.0.0.69</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Sep 12 11:03:02 2007">Sep 12, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>From the doc, I can't find a way to get the list of feeds subscribed... is that possible? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/127.0.0.69/">127.0.0.69</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Sep 13 21:19:06 2007">Sep 13, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Sorry for duplicates comments. System bug. </P><P>I now know how to get the list of feeds subscribed... It was changed to: <A href="http://www.google.com/reader/api/0/subscription/list" rel="nofollow">http://www.google.com/reader/api/0/subscription/list</A> </P><P>The list of unread items count was also changed to: <A href="http://www.google.com/reader/api/0/unread-count?all=true" rel="nofollow">http://www.google.com/reader/api/0/unread-count?all=true</A> </P><P>Unfortunately I still can't find a way to get the next 20 items after the first fetch... Maybe is through continuation POST var? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/127.0.0.69/">127.0.0.69</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Sep 13 21:19:11 2007">Sep 13, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Sorry for duplicates comments. System bug. </P><P>I now know how to get the list of feeds subscribed... It was changed to: <A href="http://www.google.com/reader/api/0/subscription/list" rel="nofollow">http://www.google.com/reader/api/0/subscription/list</A> </P><P>The list of unread items count was also changed to: <A href="http://www.google.com/reader/api/0/unread-count?all=true" rel="nofollow">http://www.google.com/reader/api/0/unread-count?all=true</A> </P><P>Unfortunately I still can't find a way to get the next 20 items after the first fetch... Maybe is through continuation POST var? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/127.0.0.69/">127.0.0.69</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Sep 13 21:28:29 2007">Sep 13, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I seem to be misunderstanding some stuff... I checked, the continuation is used to get the next items (just like said in the doc). Thanks for the wiki. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/graybot/">graybot</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Fri Sep 14 13:19:10 2007">Sep 14, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>note that ck (timestamp) is the standard unix timestamp, with the addition of milliseconds, so instead of 1189800875, it would be 1189800875112 </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/graybot/">graybot</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Fri Sep 14 13:33:23 2007">Sep 14, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>for atom items, the get parameter r (sort order) can also have the value "n" which seems to be a synonym for "d". so "o" is oldest first, "n" is newest first, "d" is descending. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/benamor.karim/">benamor.karim</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Sep 20 01:01:31 2007">Sep 20, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Is there a way to filter a feed searching for a word? something like: </P><P><A href="http://www.google.com/reader/view/user/-/label/important/#search/find_my_word" rel="nofollow">http://www.google.com/reader/view/user/-/label/important/#search/find_my_word</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/benamor.karim/">benamor.karim</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Sep 20 01:01:49 2007">Sep 20, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Is there a way to filter a feed searching for a word? something like: </P><P><A href="http://www.google.com/reader/view/user/-/label/important/#search/find_my_word" rel="nofollow">http://www.google.com/reader/view/user/-/label/important/#search/find_my_word</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/scruffyben/">scruffyben</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sat Dec  8 01:48:07 2007">Dec 08, 2007</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>If I pass in the contents of &lt;gr:continuation&gt; as a parameter (c=...), it does jump me down the feed, but always to the same point (maybe post number 40). </P><P>Also, if i use n as a parameter it doesn't work for values over 9. </P><P>Are these bugs, or am I doing something wrong? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/singpolyma/">singpolyma</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jan 10 13:44:14 2008">Jan 10, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>token is actually T= not token= remember it is s=feed/FEEDURL not just s=FEEDURL </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/glennmarcus/">glennmarcus</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Mar 25 20:29:16 2008">Mar 25, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>What about <A href="http://www.google.com/reader/public/atom/user/" rel="nofollow">http://www.google.com/reader/public/atom/user/</A>&lt;uid&gt;/label/&lt;label&gt; </P><P>This is the pure RSS atom feed of any tags you make public.  It only returns the last 20 entries of the feed.  Is there a way to make it return all the entries? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/tubo.he/">tubo.he</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Mar 26 03:15:36 2008">Mar 26, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>How can I get a URI like "<A href="https://www.google.com/reader/public/atom/feed/" rel="nofollow">https://www.google.com/reader/public/atom/feed/</A>&lt;feed URI&gt;"? Or "<A href="http://www.google.com/reader/public/atom/feed/" rel="nofollow">http://www.google.com/reader/public/atom/feed/</A>&lt;feed URI&gt;"? Is this structure just like "/reader/atom/feed/&lt;feed URI&gt;" that is used to request any feed from google reader system? If so, is there any fresh time of google reader system about this &lt;feed URI&gt;? Or fetch the content from &lt;feed URI&gt; and send it to the client just when user request it? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/arnstein87/">arnstein87</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sat May 10 05:28:36 2008">May 10, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>There seems to be lots of other API changes too. For example, for adding a subscription, google reader uses  <A href="http://www.google.com/reader/api/0/subscription/quickadd?client=myclient" rel="nofollow">http://www.google.com/reader/api/0/subscription/quickadd?client=myclient</A> with postdata as  quickadd=&lt;URL&gt;&amp;ac=subscribe&amp;T=&lt;TOKEN&gt; </P><P>I think they might have changed more, and this document might need reviewing. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/lechtitseb/">lechtitseb</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Jun  3 14:19:42 2008">Jun 03, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I'm wondering if they're planning to release an official API someday :(. I'm working on a little Java program to manipulate my unread items, but it's quite painfull right now... </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/arnstein87/">arnstein87</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Jun  4 08:32:59 2008">Jun 04, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>To get feeds beyong 20 feeds pass n=&lt;numbertoretrieve&gt; as GET request. Unfortunately I didn't figure out a way to start the feeds from a given number. </P><P>For example: <A href="http://www.google.com/reader/atom/feed/http://xkcd.com/atom.xml?n=20" rel="nofollow">http://www.google.com/reader/atom/feed/http://xkcd.com/atom.xml?n=20</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/lechtitseb/">lechtitseb</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Jun  4 13:10:09 2008">Jun 04, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I'm working on an unofficial Java API for Google Reader based on this page's information. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/sancho/">sancho</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Fri Jun  6 10:00:20 2008">Jun 06, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Requierements is spelled requirements </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/thomas.a.meier/">thomas.a.meier</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Jun 10 14:03:02 2008">Jun 10, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Is there any way to get the specific extensions in each feed?  I'd like to be able to view the original itunes extensions through Google Reader because they keep history, but it seems like they strip them out; i.e. it's a bare-bones atom feed. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/swetadri.iitm/">swetadri.iitm</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jun 12 06:51:16 2008">Jun 12, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Is there any way to login in google-reader account by java program only?Means from code, not from google-reader homepage.Ia m sending "Email" and "Passwd" as post parameter to <A href="https://www.google.com/accounts/ClientLogin.Then" rel="nofollow">https://www.google.com/accounts/ClientLogin.Then</A> I am getting SID and LSID.Then I am dumoing cookie.But,its not taking setDomain(".google.com") method. What to do? I want to be logged in via code.IS therer any mistake I am doing?Plz help!!! </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/lechtitspam/">lechtitspam</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sat Jun 14 14:41:24 2008">Jun 14, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>@swetadri: I'm currently working on it, if you want more info and/or help me, you can contact me at lechtitseb at gmail . com </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/milobird/">milobird</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jun 19 02:59:57 2008">Jun 19, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>The "xt" parameter seems to work only for excluding read items. It seems to completely ignore other states, labels, or feed stream IDs beginning "feed/". </P><P>Does anyone have a workaround for this? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/scarvel8/">scarvel8</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jul  3 07:38:33 2008">Jul 03, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I have made my own java based google reader api. Theres no documentation, and it is incomplete, but it may be useful for someone. <A href="http://www.caip.rutgers.edu/~scarvel/grapijava/" rel="nofollow">http://www.caip.rutgers.edu/~scarvel/grapijava/</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/swetadri.iitm/">swetadri.iitm</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Jul  8 00:02:50 2008">Jul 08, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>thanks to scarvel8...ur api is useful to me... </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/swetadri.iitm/">swetadri.iitm</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jul 10 07:20:10 2008">Jul 10, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>scarvel8, did you do the same thing for subscribtion via my yahoo or bloglines?if yes, please let me know </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/scarvel8/">scarvel8</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jul 10 07:49:59 2008">Jul 10, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>No I haven't, although if I get some free time I will look into it. I am also working on other options not listed in this document, such as being able to load search results. I should have a more complete API up in the next week or two. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/swetadri.iitm/">swetadri.iitm</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jul 10 23:57:11 2008">Jul 10, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>ok..if you do for yahoo rssfeeds, plz tell me... </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/ForeverZeroRO/">ForeverZeroRO</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jul 17 10:50:30 2008">Jul 17, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I am trying to access this url with an XMLHttpRequest: <A href="http://www.google.com/reader/atom/user/-/state/com.google/broadcast" rel="nofollow">http://www.google.com/reader/atom/user/-/state/com.google/broadcast</A> </P><P>However, the responseText is a Google error page which says the following: "Further action needs to be taken by your user agent in order to fulfill the request. " </P><P>The script goes through a PHP proxy so it can go cross domain. Does anyone know what information Google Reader requires that would fix this error? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/franssauermann/">franssauermann</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jul 17 13:23:56 2008">Jul 17, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Great article! I want to export my google reading list, and a step is to input it into a feedburner feed for further processing. I could not get Google to export the feed, with the correct userID: <A href="http://www.google.com/reader/atom/user/123456789123456789123456789/state/com.google/reading-list" rel="nofollow">http://www.google.com/reader/atom/user/123456789123456789123456789/state/com.google/reading-list</A> Is there authentication requirements?  </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/franssauermann/">franssauermann</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Jul 22 14:16:38 2008">Jul 22, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Ok.. answered my own question. I tried a GET with  <A href="https://www.google.com/accounts/ClientLogin?service=reader&Email=myusername&Passwd=mypassword" rel="nofollow">https://www.google.com/accounts/ClientLogin?service=reader&amp;Email=myusername&amp;Passwd=mypassword</A> and got the authentication requirements parameters </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/ladyfaa/">ladyfaa</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Jul 29 21:12:41 2008">Jul 29, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Hi thanks for the post.Nice blog.Now this blog is in my favourite bookmark pages. <A href="http://www.squidoo.com/papershredderarticles" rel="nofollow">http://www.squidoo.com/papershredderarticles</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/ForeverZeroRO/">ForeverZeroRO</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jul 31 07:59:24 2008">Jul 31, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I out together a very small program that shows a basic way of grabbing GET data from Google Reader with Java. I commented it up so most questions should be answered. Note this is VERY basic, and just intended for people looking for information on how to get started. </P><P><A href="http://www.foreverzero.org/Process.java" rel="nofollow">http://www.foreverzero.org/Process.java</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/mdesaro/">mdesaro</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jul 31 15:49:04 2008">Jul 31, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Has anyone been able to successfully implement the continuation parameter for getting more feed items from a feed?  I cant seem to get it to work.  The url I create I can put in a browser address bar and it works fine but when I hit it from a server (CURL) it always shows the first n items. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/mdesaro/">mdesaro</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jul 31 15:50:16 2008">Jul 31, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Also, I cant seem to get any of the xt (exclude) links to work.  Has anyone pulled this off? </P><P>(<A href="http://www.google.com/reader/atom/?n=4&xt=user/-/state/com.google/read" rel="nofollow">http://www.google.com/reader/atom/?n=4&amp;xt=user/-/state/com.google/read</A>) </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/dfinkler/">dfinkler</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Aug 17 21:08:55 2008">Aug 17, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>i can read N items from a feed.. i am currently limited by heap size only, yay </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/dfinkler/">dfinkler</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Aug 17 21:09:35 2008">Aug 17, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>i can also query for number of unread items but have no implemented (in java) the ability to mark items as read.. any advice? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/beglen/">beglen</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Aug 19 10:34:18 2008">Aug 19, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I can't make it retrieve more than 999 items from a given feed. Any ideas how I might get more than that?  </P><P>(I have a few years' worth of friends' facebook status updates cached in Reader, and would love to be able to export them all! <A href="http://infoclarity.blogspot.com/2008/06/hidden-in-words.html" rel="nofollow">http://infoclarity.blogspot.com/2008/06/hidden-in-words.html</A>) </P><P>Thanks for the great tips. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/robertgriffo/">robertgriffo</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Sep  4 01:54:08 2008">Sep 04, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Ok, you can probably tell I'm a complete noob at this from my question but here it goes.  I'm just trying to make a very simple bash shell script using curl to get my unread count.  I can view the data I want just fine when I open this link in safari (<A href="http://www.google.com/reader/api/0/unread-count?all=true" rel="nofollow">http://www.google.com/reader/api/0/unread-count?all=true</A>) and I can view the source and see exactly what I'd like to extract.  However, when I use curl in my shell script it doesn't work. I'm assuming I have to login as described at the beginning of the article to access this data using curl.  My stupid question is this: is it safe/secure to include my user name and password in this url ( <A href="https://www.google.com/accounts/ClientLogin?service=reader&Email=myusername&Passwd=mypassword" rel="nofollow">https://www.google.com/accounts/ClientLogin?service=reader&amp;Email=myusername&amp;Passwd=mypassword</A>) in a shell script?  Any suggestions would be a big help.  Thanks! </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/pinowsky/">pinowsky</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sat Oct  4 07:49:31 2008">Oct 04, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>For doing any operation which requires authentication, you would need to provide two tokens: </P><P><STRONG> SID </STRONG> Authentication token or T token (do not mix up this token with the Auth token you get by authenticating against Google by ClientLogin<A href="http://code.google.com/p/pyrfeed/w/edit/ClientLogin">?</A>) </P><P>SID (session ID) is a session token. There are also two ways of fetching this token: </P><P><STRONG> If you have a browser (i.e Firefox) opened and already logged in any Google site, a valid SID token would be stored inside your browser. Firefox stores session tokens inside session_store.js file. In conclusion, search for the SID inside session_store.js if there is any google session opened inside your Firefox. </STRONG></P><P><STRONG> Authentication against Google reader service using ClientLogin<A href="http://code.google.com/p/pyrfeed/w/edit/ClientLogin">?</A> mechanism. Google reader service codename is 'reader'. ClienLogin<A href="http://code.google.com/p/pyrfeed/w/edit/ClienLogin">?</A> mechanism is fully documented by Google (just google it). ClientLogin<A href="http://code.google.com/p/pyrfeed/w/edit/ClientLogin">?</A> mechanism returns three tokens, one of them is SID (session token). </STRONG></P><P>Once you got a valid SID token, then you need to retrieve  </P><P>Once you get a valid SID token, do a GET request to the following URL to get a valid T token. </P><P><A href="http://www.google.com/reader/api/0/token" rel="nofollow">http://www.google.com/reader/api/0/token</A> </P><P>This request should be composed by adding SID as a Cookie. </P><P>Once you get both tokens, SID and T, you can successfully perform any Google Reader operations which require authentication (pass these two values as cookies) </P><P>So answering the question above, how to compose a valid curl command to fetch a list of unread elements: </P><P>First, get a valid SID token: </P><P>curl <A href="https://www.google.com/accounts/ClientLogin" rel="nofollow">https://www.google.com/accounts/ClientLogin</A>  -d Email=just_your_username_here_without_at_gmail_dot_com  -d Passwd=your_password_here  -d source=Google-cURL-Example  -d service=reader </P><P>Response: Auth=XXX SID=DQAAAH0AAAC0YHom0L5LDq10xGnbQK_O7OLiX3Qrou4XeA6P469shoM1goEFQT_zVn8YxDV38Y5v3mGJlhSzJuz5xLPqpKEM0Wedks-ak7LLpNjO7dZw779ljOQrC-2UCYFjiktJcfXmof7WeZs7O0SCNCQgPSKaENJ6FBTeDBeQLahUUrajrg LSID=XXX </P><P>Once you get a valid SID, request a T token: </P><P>curl -s -X GET <A href="http://www.google.com/reader/api/0/token" rel="nofollow">http://www.google.com/reader/api/0/token</A> --header "Cookie: SID=DQAAAH0AAAC0YHom0L5LDq10xGnbQK_O7OLiX3Qrou4XeA6P469shoM1goEFQT_zVn8YxDV38Y5v3mGJlhSzJuz5xLPqpKEM0Wedks-ak7LLpNjO7dZw779ljOQrC-2UCYFjiktJcfXmof7WeZs7O0SCNCQgPSKaENJ6FBTeDBeQLahUUrajrg" </P><P>Response: </P><P>kArWxxwBAAA.vegUbtUjv2Vvf_HKWlwjIA.QfhP1LoSb5ghYPz_AbOG_Q </P><P>Once you get a valid T token, perform any operation you want against Google Reader, for instance, retrieve your list of feeds </P><P>curl -s -X GET <A href="http://www.google.com/reader/api/0/unread-count?all=true" rel="nofollow">http://www.google.com/reader/api/0/unread-count?all=true</A> --header "Cookie: SID=DQAAAH0AAAC0YHom0L5LDq10xGnbQK_O7OLiX3Qrou4XeA6P469shoM1goEFQT_zVn8YxDV38Y5v3mGJlhSzJuz5xLPqpKEM0Wedks-ak7LLpNjO7dZw779ljOQrC-2UCYFjiktJcfXmof7WeZs7O0SCNCQgPSKaENJ6FBTeDBeQLahUUrajrg; T=kArWxxwBAAA.vegUbtUjv2Vvf_HKWlwjIA.QfhP1LoSb5ghYPz_AbOG_Q" | tidy -xml -indent -quiet </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/uche.ogbuji/">uche.ogbuji</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Fri Oct 31 08:32:28 2008">Oct 31, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Following the curl breadcrumbs of pinowsky (thanks!) I worked up the following Python code to use Google Reader to convert feeds to Atom: </P><P><A href="http://wiki.xml3k.org/Amara/Recipes/Google_Web_feed_atomizer" rel="nofollow">http://wiki.xml3k.org/Amara/Recipes/Google_Web_feed_atomizer</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/AlexeiSergeev/">AlexeiSergeev</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Nov 12 01:04:48 2008">Nov 12, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>From now it seems like I need to be logged in to access atom/feed/somefeedurl<A href="http://code.google.com/p/pyrfeed/w/edit/somefeedurl">?</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/rlstracker/">rlstracker</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Nov 12 09:14:40 2008">Nov 12, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I can't use command-line URL-fetchers (like 'wget' or 'GET') successfully when trying to access the following URL:  <A href="http://www.google.com/reader/atom/feed/http://xkcd.com/rss.xml" rel="nofollow">http://www.google.com/reader/atom/feed/http://xkcd.com/rss.xml</A> </P><P>They don't return XML data, but rather an HTML page telling me to log in.  Is Google restricting access to particular user-agents (browsers)? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/taka.atsushi/">taka.atsushi</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Nov 12 15:53:40 2008">Nov 12, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Google Reader has feed translation, introduced 2008-11-11. </P><P>That's accessible by the parameter/key pair of "trans=true" </P><P>ex. <A href="http://www.google.com/reader/atom/feed/SOME_FEED_URL?trans=true" rel="nofollow">http://www.google.com/reader/atom/feed/SOME_FEED_URL?trans=true</A> </P><P>the above translates to the language of your setting with Google Reader. </P><P>I don't know if you can make it translate to languages of your choice just by varying a parameter. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/katapulp/">katapulp</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Nov 25 08:06:05 2008">Nov 25, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Is "edit-tag" still working? </P><P>I got a "400 client error" when I try to add a label to a specific post of my favorite list. I got a valid SID and Token, but for exemple this URL is not working: <A href="http://www.google.com/reader/api/0/edit-tag?ac=edit&i=tag:google.com,2005:reader/item/041fa449c5de72c9&a=user/-/label/test&token=97xa1B0BAAA.RDpLb8-l3NMfqpaw0vYq-g.JcgYUQXFh9E6MmkLNIpwEw" rel="nofollow">http://www.google.com/reader/api/0/edit-tag?ac=edit&amp;i=tag:google.com,2005:reader/item/041fa449c5de72c9&amp;a=user/-/label/test&amp;token=97xa1B0BAAA.RDpLb8-l3NMfqpaw0vYq-g.JcgYUQXFh9E6MmkLNIpwEw</A> </P><P>Am I missing something? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/mariano.kamp/">mariano.kamp</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sat Dec 13 03:23:00 2008">Dec 13, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Hi, </P><P>I am wondering how to sync with GoogleReader<A href="http://code.google.com/p/pyrfeed/w/edit/GoogleReader">?</A>? for offline reading? I want the latest 10 entries that I haven't seen before, e.g. r=d (date descending), n=100, ot=&lt;timestamp of last sync&gt;. But you say above that specifying ot only works with r=o. ;-( </P><P>Cheers, Mariano </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/ThrashingStick/">ThrashingStick</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Dec 18 19:49:57 2008">Dec 18, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Hi Mariano -- What you're going to want to do is use the "xt" (exclude target) parameter to exclude read items in your query.  Look for "xt" above. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/mariano.kamp/">mariano.kamp</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Dec 21 09:27:04 2008">Dec 21, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Hi TrashingStick<A href="http://code.google.com/p/pyrfeed/w/edit/TrashingStick">?</A>, I appreciate very much that you took the time to post an answer. I thought nobody would ;-( </P><P>But this would not help me really. It is not the same to have donwloaded an item and have read it. So I download a couple of items to a mobile device, read some of them, but then don't want to download the unread items all over again every time I sync.  It is also not an option to mark them as read anyway and keep a separate read state on the client. This would make the items marked read for the online reader also. </P><P>Any more ideas? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/mariano.kamp/">mariano.kamp</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Dec 21 10:36:36 2008">Dec 21, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I opened a question on stack overflow: <A href="http://stackoverflow.com/questions/384771/how-to-skip-known-entries-when-syncing-with-google-reader" rel="nofollow">http://stackoverflow.com/questions/384771/how-to-skip-known-entries-when-syncing-with-google-reader</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/jesuscheung/">jesuscheung</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Dec 28 11:50:34 2008">Dec 28, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>the start_time parameter no longer (or never) works. </P><P>no matter what start_time i set, whether r=o or r=n, the oldest feed item returned is within this month. </P><P>oh well. if anyone tries to grap all the items. the way is to set n very very big so that it covers all the items. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/shabda.shabda/">shabda.shabda</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Mon Dec 29 10:35:50 2008">Dec 29, 2008</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Will somebody pl tell me - 1. how to mark an item as read (using these api) 2. how to mark many items as read (using theser api) </P><P>I tried whatever has been said above.......however not getting it right. Pl explain with an example. </P><P>Thanks a ton in advance -shabda </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/jackphelps/">jackphelps</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Feb  5 13:16:01 2009">Feb 05, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Does anyone know how to solve this...?  </P><P>I'm trying to roll my own aggregator by running feeds through the API to normalize the contents. Works great for most feeds ("<A href="http://www.google.com/reader/atom/feed/#{feed.url" rel="nofollow">http://www.google.com/reader/atom/feed/#{feed.url</A>}"). However, some feeds use url parameters to deliver their contents... example: "<A href="http://img.perezhilton.com/?feed=rss2" rel="nofollow">http://img.perezhilton.com/?feed=rss2</A>". The API sees this and thinks the feed address is just "<A href="http://img.perezhilton.com/" rel="nofollow">http://img.perezhilton.com/</A>", and that the "?feed=rss2" is a parameter for IT, rather than the feed's server. Escaping the ? does not work... anyone have any clues? </P><P>Thanks to all for the awesome work figuring this out. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/Sesarr.bg/">Sesarr.bg</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sat Feb 28 07:45:31 2009">Feb 28, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>jackphelps, try urlencoding the whole url: </P><P><A href="http://www.google.com/reader/atom/feed/http%3A%2F%2Fimg.perezhilton.com%2F%3Ffeed%3Drss2" rel="nofollow">http://www.google.com/reader/atom/feed/http%3A%2F%2Fimg.perezhilton.com%2F%3Ffeed%3Drss2</A> </P><P>this seems to work :). Good luck with your project </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/koonuf/">koonuf</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Mon Mar  2 06:37:28 2009">Mar 02, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I'm getting 401 (Unauthorized) HTTP error, when trying to call "edit" API methods. I've tried to attach "T" token both in post request and as cookie to no avail. Does anyone else get the same error? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/michael.ayvazyan/">michael.ayvazyan</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Mon Mar  2 13:21:19 2009">Mar 02, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I'm have the same problem (401 (Unauthorized)) </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/AlexeiSergeev/">AlexeiSergeev</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Mar 11 12:52:55 2009">Mar 11, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Google don't allow to remove "user/-/state/com.google/read", and I failed to add "user/-/state/com.google/kept-read". Any tips on how to mark article "unread" now? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/MekkMekk/">MekkMekk</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Fri Mar 20 07:07:12 2009">Mar 20, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Thank you very much for this analysis, it was very helpful. </P><P>Here is my small tool written using Reader API (and some python code): <A href="http://blog.mekk.waw.pl/archives/31-Editing-Google-Reader-subscriptions-with-a-text-editor.html" rel="nofollow">managing subscriptions as a text file</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/wayne.culbreth/">wayne.culbreth</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Mon Mar 23 09:43:11 2009">Mar 23, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>katapulp - did you have any luck?  I'm having the same issue.  I've presented the i, s, &amp; a arguments in every way I can imagine (in the url, as data in the post, URL encoded, not URL encoded) and the same with SID and token, and I always get a 400 or 401 error.  Any one here have any luck editing tags?  I can read data no problem, I just can't modify. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/karthik085/">karthik085</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Apr  2 08:05:29 2009">Apr 02, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Hi, For all shared items, how can I get the list of tags for each shared item? I have been trying with the above api and so far unsuccessful. Any suggestions are appreciated. Thanks. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/boldakov/">boldakov</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Apr 15 03:31:49 2009">Apr 15, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>To catapulp and wayne.culbreth: </P><P>I have a working 'edit-tag' feature of marking entries as read in the following way: </P><P>Post to url: <A href="http://www.google.com/reader/api/0/edit-tag?client=-" rel="nofollow">http://www.google.com/reader/api/0/edit-tag?client=-</A> Post body: "i="+entryId+"&amp;a=user/-/state/com.google/read&amp;ac=edit&amp;T="+token </P><P>Other combinations of T-&gt;token, ac=edit-&gt;ac=edit-tags, adding s=feedURL and so on come to 400 error from Google. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/ionutz.posea/">ionutz.posea</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Apr 16 03:40:43 2009">Apr 16, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Hello guys , </P><P>I am planning to write an application that simulates a Feed Reader and manager and I decided to write it in SIlverlight (it sounded interesting and I hope I will learn a lot). </P><P>My first problem was somehow to "generalize" the feeds brought into the application. After some research I found out Google Reader offers the posibility to access their first layer ( parsing layer) and in this way I could get the feed in atom format for any feed. </P><P>(using <A href="http://www.google.com/reader/atom/feed/[URL" rel="nofollow">http://www.google.com/reader/atom/feed/[URL</A>]  command) </P><P>Ok ,things were clear until here .I already knew that for an SIlverligt appication to exist the posibility to extract some data from another location than it's domani ,that data site should have a crossdomain.xml file in the root of the site. </P><P>My thought was first that Google has something like this ,I also was enthusiastic when found reply to crossdomain.xml. But disappointment come soon because on a closer look the xml file looks like : </P><P>&lt;?xml version="1.0"?&gt; &lt;!DOCTYPE cross-domain-policy SYSTEM "<A href="http://www.macromedia.com/xml/" rel="nofollow">http://www.macromedia.com/xml/</A> dtds/cross-domain-policy.dtd"&gt; &lt;cross-domain-policy&gt; </P><BLOCKQUOTE>&lt;site-control permitted-cross-domain-policies="by-content-type" /&gt; 
+</BLOCKQUOTE>&lt;/cross-domain-policy&gt; <P></P><P>So my first idea was to use a proxy to access this link ,I am new in this technology and tried some solutions: </P><P>SIlverlight can extract for example any data through a proxy ,for example this works: <A href="http://al.cloudapp.net/proxy.ashx?http://rss.cnn.com/rss/edition.rss" rel="nofollow">http://al.cloudapp.net/proxy.ashx?http://rss.cnn.com/rss/edition.rss</A> ,it extracts the direct feed from cnn site even if they don't have a crossdomain.xml file. </P><P>My next step was to generalize the feed through Google Reader : </P><P><A href="http://al.cloudapp.net/proxy.ashx?http://www.google.com/reader/atom/feed/http://rss.cnn.com/rss/edition.rss" rel="nofollow">http://al.cloudapp.net/proxy.ashx?http://www.google.com/reader/atom/feed/http://rss.cnn.com/rss/edition.rss</A> ,but this solution failed ,I also tried with different proxies and no success. </P><P>My questions would be: </P><P>1.Why Google has this crossdomain.xml file and not a more permissive one? Could it be possible to modify this crossdomain.xml so that Silverlight application can access this API? </P><P>2.If 1 is not possible does anyone have a better solution ,I feel I am very close and maybe it may work through a proxy and I am doing something wrong? </P><P>3.Anyone else have any other ideas? </P><P>Thanks a lot, Ionut </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/garyhurtz/">garyhurtz</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun May  3 20:27:21 2009">May 03, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Hello. Just found this and have only begun digging in, but my first simple test is failing and it seems to be a "mad-made" issue. Google Reader shows that I have 84 unread items, yet the following code only returns 20 entries: </P><PRE class="prettyprint"><SPAN class="pln">xmlfeed </SPAN><SPAN class="pun">=</SPAN><SPAN class="pln"> gr</SPAN><SPAN class="pun">.</SPAN><SPAN class="pln">get_all</SPAN><SPAN class="pun">()</SPAN><SPAN class="pln"><BR></SPAN><SPAN class="kwd">print</SPAN><SPAN class="pln"> xmlfeed</SPAN><SPAN class="pun">.</SPAN><SPAN class="pln">get_title</SPAN><SPAN class="pun">()</SPAN><SPAN class="pln"><BR></SPAN><SPAN class="kwd">for</SPAN><SPAN class="pln"> entry </SPAN><SPAN class="kwd">in</SPAN><SPAN class="pln"> xmlfeed</SPAN><SPAN class="pun">.</SPAN><SPAN class="pln">get_entries</SPAN><SPAN class="pun">():</SPAN><SPAN class="pln"><BR>&nbsp; &nbsp; </SPAN><SPAN class="kwd">print</SPAN><SPAN class="pln"> entry</SPAN></PRE><P>I see a 'count' parameter in ATOM_ARGS which may be used to limit the number of items (?) and "20" is a suspiciously convenient and round number, but I dont see any reference to 20 in the code... Is the response limited to 20 items? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/curtis.herbert/">curtis.herbert</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed May  6 06:03:03 2009">May 06, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Has anyone looked into emulating the ability of the bookmarklet they release (<A href="http://googlereader.blogspot.com/2008/05/share-anything-anytime-anywhere.html" rel="nofollow">http://googlereader.blogspot.com/2008/05/share-anything-anytime-anywhere.html</A>).  It allows you to share an item even if it isn't in one of your feeds.  Would be nice to be able to duplicate this in the code too. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/chadotter/">chadotter</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed May 13 08:56:09 2009">May 13, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Mine works for a little while, but then I get a 302 redirection and the message "Further action needs to be taken by your user agent in order to fulfill the request." After some period of time (I'm not sure how long yet) it will start working again. </P><P>If anyone aware of a limit to how often you can access the API during a period of time.  I always get to a similar point (&gt;100 I think) before getting the redirection. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/@UxBTR1BTDxdGWgd1/">lefts...@me.com</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu May 21 18:18:22 2009">May 21, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I've already queried atom feeds from it several thousand times in testing my app. Seems to be no problem there. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/boldakov/">boldakov</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Jun  2 07:28:41 2009">Jun 02, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Does anybody know how to eliminate duplicates of entries which google returns sometime with the <A href="http://www.google.com/reader/atom/" rel="nofollow">http://www.google.com/reader/atom/</A> API? This often happens when the RSS creators update entry, but the URL or id of the entry is changed. The same feed explored with Google Reader web interface doesn't contain duplicates, which appear with Reader API. While Google Reader is based on the GoogleReader<A href="http://code.google.com/p/pyrfeed/w/edit/GoogleReader">?</A> API it should be possible to avoid duplicates with API too.  </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/monkiki/">monkiki</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Jun  3 08:45:18 2009">Jun 03, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>How can I get a list of unread news (with the title)?  </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/bojerko/">bojerko</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Jun 10 01:03:59 2009">Jun 10, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Trying to make edit tag work.  I've got the data to be sent by using Firebug in Firefox and using online Google Reader. The result is return of "Invalid stream name."  Anybody knows what that means? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/abdulrahman86/">abdulrahman86</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Jun 23 14:45:58 2009">Jun 23, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Hey i am getting a 400 error when i try to add a subscription list to google reader. Here is what I am doing </P><P>url = "<A href="http://www.google.com/reader/api/0/subscription/edit?client=-" rel="nofollow">http://www.google.com/reader/api/0/subscription/edit?client=-</A>" </P><P>I set my http request url to this  </P><P>and pass the following post parameters  </P><P>postRequestPayload=feed/<A href="http://xkcd.com/rss.xml&ac=subscribe&T=" rel="nofollow">http://xkcd.com/rss.xml&amp;ac=subscribe&amp;T=</A>"+token.  </P><P>I have also tried token instead of T and also tried client=scroll in my url but I still get the 400 error. Please help.  </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/cubegames/">cubegames</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sat Jun 27 02:55:08 2009">Jun 27, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>The official Google Reader desktop gadget uses the API, so accurate API information can be gathered from it: <A href="http://code.google.com/p/google-reader-gadget/" rel="nofollow">http://code.google.com/p/google-reader-gadget/</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/@VBFRQ1JRBRBGVwB7/">gia...@gmail.com</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Jul 14 05:04:16 2009">Jul 14, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I was using the following url <A href="http://www.google.com/reader/atom/feed/http://" rel="nofollow">http://www.google.com/reader/atom/feed/http://</A>.. to be able to download all the feeds that i would eventually miss when my RSS Client is off. Why is not working any more?? I get this error in safari: “The feed could not be loaded because the content is not in a known feed format.” (PubSub<A href="http://code.google.com/p/pyrfeed/w/edit/PubSub">?</A>:2) </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/@VBFRQ1JRBRBGVwB7/">gia...@gmail.com</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Jul 14 06:05:46 2009">Jul 14, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Fixed. The problem was something regarding cookies. I just needed to logout, delete the cookies in safari and login again. I recommend to use those url if the feed you're watching has more than 20 updates per day as the Client/feed might not pick more than that. -GianPaJ </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/markst3v3ns/">markst3v3ns</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Jul 26 01:33:52 2009">Jul 26, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I am using this URL to get unread headlines: <A href="https://www.google.com/reader/atom/user/-/state/com.google/reading-list?xt=user/-/state/com.google/read" rel="nofollow">https://www.google.com/reader/atom/user/-/state/com.google/reading-list?xt=user/-/state/com.google/read</A> </P><P>Is there a query string parameter to exclude elements like &lt;summary&gt;? That would mean I would download a lot less data. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/ross.burton/">ross.burton</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Aug 11 09:29:08 2009">Aug 11, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I discovered that the "broadcast-friends" state is for items that your friends have shared (i.e. are in the People You Follow section). </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/boldakov/">boldakov</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Mon Aug 17 03:53:08 2009">Aug 17, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>My HTTP requests to Google Reader API return HTTP 403 response. Everything worked fine until i've started experiment to check for new entries in cycle for about 4000 feeds. It looks like some kind of ban but i can't find any published  restrictions on service usage. Does any body know about restrictions or about the way to pass the problem without changing the IP? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/markst3v3ns/">markst3v3ns</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Mon Aug 24 05:34:41 2009">Aug 24, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I have found the JSON version of /reader/atom/user/-/state/com.google/reading-list if anyone is interested: </P><P><A href="http://www.google.com/reader/api/0/stream/contents/?xt=user/-/state/com.google/read" rel="nofollow">http://www.google.com/reader/api/0/stream/contents/?xt=user/-/state/com.google/read</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/dmatarazzo/">dmatarazzo</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Sep  6 02:09:47 2009">Sep 06, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Everything was working fine, and then I started getting the message "Your client does not have permission to get URL /reader/api/0/token from this server," when requesting a token despite not having changed any code. Has anyone else experienced this? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/ruimams/">ruimams</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Sep  6 11:04:12 2009">Sep 06, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>@dmatarazzo I'm having the same problem. =\ </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/dmatarazzo/">dmatarazzo</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Sep  6 23:14:42 2009">Sep 06, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>@ruimams I figured out that the problem was with how I was setting up the cookie that contained the SID. Could that be the source of your problem? As long as you're using POST, sending a cookie (I sent mine through the header) that reads SID=SID here<A href="http://code.google.com/p/pyrfeed/w/edit/your">?</A> and using the /reader/api/0/token URL, it should work... </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/dmatarazzo/">dmatarazzo</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Sep  9 06:56:09 2009">Sep 09, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Since there isn't an "unread" state, to get a list of all unread items just query your reading list with a very large number and exclude read items like so: <A href="http://www.google.com/reader/atom/user/-/state/com.google/reading-list?n=9999&xt=user/-/state/com.google/read" rel="nofollow">http://www.google.com/reader/atom/user/-/state/com.google/reading-list?n=9999&amp;xt=user/-/state/com.google/read</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/jot.kali/">jot.kali</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Oct  8 01:44:24 2009">Oct 08, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>How do you "mark as read " ? </P><P>I've tried sending : URL : <A href="http://www.google.com/reader/api/0/edit-tag" rel="nofollow">http://www.google.com/reader/api/0/edit-tag</A> Post values : i = tag:google.com,2005:reader/item/03052da1635b7fdb a = /user/-/state/com.google/read T = token value I include the sessions cookies as well. </P><P>Thanks. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/jot.kali/">jot.kali</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Oct  8 13:26:19 2009">Oct 08, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Answering my post above. I had a slash in front of 'user' in the 'a' tag. 'ac' tag is set to 'edit-tags'. URL encode the token, 'i', and 's'. It works now.  </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/cyberprashant/">cyberprashant</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Fri Oct 30 12:09:44 2009">Oct 30, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>This is great!!! Can we use this API for a commercial product? Can someone at google respond to me cyberprashant at gmail dot com.  Thanks! </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/ng2tuan/">ng2tuan</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Fri Oct 30 14:54:38 2009">Oct 30, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Hello, </P><P>I'm working with .NET, and I looking .NET component tall with Google Reader API </P><P>Now, I use component at: <A href="http://mattberseth.com/blog/2009/02/net_googlereader_api.html" rel="nofollow">http://mattberseth.com/blog/2009/02/net_googlereader_api.html</A> </P><P>In my code, I get rss from google news but have error - bad request </P><P><A href="http://www.google.com/reader/atom/feed/http://news.google.com/news?cf=all&ned=us&hl=en&q=obama&cf=all&output=rss" rel="nofollow">http://www.google.com/reader/atom/feed/http://news.google.com/news?cf=all&amp;ned=us&amp;hl=en&amp;q=obama&amp;cf=all&amp;output=rss</A> </P><P>How to fix this error? </P><P>Pls help me! </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/lyfntd/">lyfntd</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Mon Nov 16 01:07:42 2009">Nov 16, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Nice article. Just tried it to get all my feeds on Google reader.  </P><P>Thanks. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/chadotter/">chadotter</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Dec  1 12:22:11 2009">Dec 01, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>@ng2tuan: </P><P>Try urlencoding the feed URL.  The ? is your problem. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/chadotter/">chadotter</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Dec  1 12:42:05 2009">Dec 01, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I've had my server checking feeds using the Google Reader API for a long time now and all of a sudden I'm getting 302 redirections because it's coming from an automated script. Is anyone else seeing this? </P><P>I've been fetching feeds directly from Google so I can have the Google ID's for each item to promote syncing. If anyone knows of another method for this I would love to hear it. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/gonzalo.laurie/">gonzalo.laurie</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Fri Dec  4 05:21:54 2009">Dec 04, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>I have installed everything just as indicated, but obtain the following error when trying to run pyrfeed.py: AttributeError<A href="http://code.google.com/p/pyrfeed/w/edit/AttributeError">?</A>?: 'module' object has no attribute 'EVT_BeforeNavigate2<A href="http://code.google.com/p/pyrfeed/w/edit/BeforeNavigate2">?</A>? Any ideas? Thanks, </P><P>Gonzalo </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/@WRdfQF1WBBZHXgl1/">luke...@sbcglobal.net</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Dec 10 18:37:05 2009">Dec 10, 2009</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>spelling fix (diff): </P><P>-You should not rely on anything on this document is you need an exact information. +You should not rely on anything on this document if you need an exact information. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/hameds/">hameds</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sat Jan  9 10:04:26 2010">Jan 09, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>How to get like count for an item? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/adawangxuan/">adawangxuan</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Jan 19 18:42:38 2010">Jan 19, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Does Google change the api?  My RSS reader for Android is work normally before.  But It can't link and always return fail these days. Who can tell me why? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/@VhhTQFJQABZHWQl0/">tobu...@gmail.com</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Jan 20 05:34:59 2010">Jan 20, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>There's a feed discovery api in json or atom. </P><P>Quoting <A href="http://groups.google.com/group/google-reader-howdoi/browse_thread/thread/2f907767c1e63d20/593f09db6dad99b2#593f09db6dad99b2" rel="nofollow">http://groups.google.com/group/google-reader-howdoi/browse_thread/thread/2f907767c1e63d20/593f09db6dad99b2#593f09db6dad99b2</A> </P><P>You can get basic feed finding information as either Atom or JSON:  <A href="http://www.google.com/reader/api/0/feed-finder?q=http://www.boston.com/bigpicture/&output=atom" rel="nofollow">http://www.google.com/reader/api/0/feed-finder?q=http://www.boston.com/bigpicture/&amp;output=atom</A> <A href="http://www.google.com/reader/api/0/feed-finder?q=http://www.boston.com/bigpicture/&output=json" rel="nofollow">http://www.google.com/reader/api/0/feed-finder?q=http://www.boston.com/bigpicture/&amp;output=json</A> Once you have the feed URL you can get stats for it as XML or JSON  (note that this requires you to be logged in):  <A href="http://www.google.com/reader/api/0/stream/details?s=feed/http://www.boston.com/bigpicture/index.xml&output=xml" rel="nofollow">http://www.google.com/reader/api/0/stream/details?s=feed/http://www.boston.com/bigpicture/index.xml&amp;output=xml</A> <A href="http://www.google.com/reader/api/0/stream/details?s=feed/http://www.boston.com/bigpicture/index.xml&output=json" rel="nofollow">http://www.google.com/reader/api/0/stream/details?s=feed/http://www.boston.com/bigpicture/index.xml&amp;output=json</A> Mihai Parparita  Google Reader Engineer  </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/@VhhTQFJQABZHWQl0/">tobu...@gmail.com</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed Jan 20 05:36:40 2010">Jan 20, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>(formatting sucks, sorry. see the original.) </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/adawangxuan/">adawangxuan</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jan 21 18:20:00 2010">Jan 21, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Please help! </P><P>post url: <A href="http://www.google.com/reader/api/0/subscription/edit" rel="nofollow">http://www.google.com/reader/api/0/subscription/edit</A>  </P><P>post parameter: Cookie:SID=mysid client=- s=feed/<A href="http://rss.sina.com.cn/news/marquee/ddt.xml" rel="nofollow">http://rss.sina.com.cn/news/marquee/ddt.xml</A> ac=subscribe T=mytoken  </P><P>response:http 401 error  </P><P>Missing any parameter?url changed? </P><P>When can we have a offical document for google reader api? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/markst3v3ns/">markst3v3ns</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Jan 26 08:20:58 2010">Jan 26, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>If anyone is interested there is also output=proto for outputting in Google's own Protocol Buffers binary format. For example, <A href="http://www.google.com/reader/api/0/unread-count?output=proto" rel="nofollow">http://www.google.com/reader/api/0/unread-count?output=proto</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/takashi316/">takashi316</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Jan 28 01:53:51 2010">Jan 28, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>This is what I have been looking for long time. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/mattejames/">mattejames</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sat Jan 30 18:20:55 2010">Jan 30, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Anyone know how to get all articles changed since a given date/time?  Ie, I want not only new articles since a given date, but also any articles that had a state change such as read, unread, favorite, etc. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/markst3v3ns/">markst3v3ns</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Jan 31 08:38:38 2010">Jan 31, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Just need the .proto files now to be able to decode the protocol buffer API responses. I have tried searching for them with no success yet. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/knut.ahlers/">knut.ahlers</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Tue Mar 23 10:11:58 2010">Mar 23, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Just created a tiny ruby test script for accessing the API to add / remove subscriptions and labels in my reader. (Will use this functions later on in an other script). I also used the Authorization-Header-Authentication instead of Cookie-Authentication. </P><P>If someone is interested in this script you can see it at <A href="http://gist.github.com/341399" rel="nofollow">http://gist.github.com/341399</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/karthik085/">karthik085</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Fri Mar 26 22:48:46 2010">Mar 26, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Is authentication still a problem for reading an user's data in Google Reader? </P><P>Can't AuthSub<A href="http://code.google.com/p/pyrfeed/w/edit/AuthSub">?</A> or OAuth be used around this to get access to data without providing username and password? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/moment/">moment</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Fri Apr  2 03:56:07 2010">Apr 02, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>'n' is limited to 1000. If you need to get more items than 1000 you have to use 'continuation'. So annoying. </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/farinspace/">farinspace</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu Apr  8 09:47:48 2010">Apr 08, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Sample PHP code for adding/removing a feed (see above for getting session ID and token): </P><PRE class="prettyprint"><SPAN class="com">// adding a feed</SPAN><SPAN class="pln"><BR>$ch </SPAN><SPAN class="pun">=</SPAN><SPAN class="pln"> curl_init</SPAN><SPAN class="pun">();</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_SSL_VERIFYPEER</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> FALSE</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_URL</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> </SPAN><SPAN class="str">"http://www.google.com/reader/api/0/subscription/quickadd?client=scroll"</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_COOKIE</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> </SPAN><SPAN class="str">'SID='</SPAN><SPAN class="pun">.</SPAN><SPAN class="pln">$this</SPAN><SPAN class="pun">-&gt;</SPAN><SPAN class="pln">session_id</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_POST</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> </SPAN><SPAN class="lit">1</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR></SPAN><SPAN class="com">//curl_setopt ($ch, CURLOPT_POSTFIELDS, array('quickadd'=&gt;urlencode($feed_url),'T'=&gt;$token)); // will not work</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_POSTFIELDS</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> </SPAN><SPAN class="str">'quickadd='</SPAN><SPAN class="pun">.</SPAN><SPAN class="pln">urlencode</SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$feed_url</SPAN><SPAN class="pun">).</SPAN><SPAN class="str">'&amp;T='</SPAN><SPAN class="pun">.</SPAN><SPAN class="pln">$token</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_USERAGENT</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> $this</SPAN><SPAN class="pun">-&gt;</SPAN><SPAN class="pln">user_agent</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_RETURNTRANSFER</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> </SPAN><SPAN class="lit">1</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>$content </SPAN><SPAN class="pun">=</SPAN><SPAN class="pln"> curl_exec</SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_close</SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">);</SPAN></PRE><PRE class="prettyprint"><SPAN class="com">// removing a feed</SPAN><SPAN class="pln"><BR>$ch </SPAN><SPAN class="pun">=</SPAN><SPAN class="pln"> curl_init</SPAN><SPAN class="pun">();</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_SSL_VERIFYPEER</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> FALSE</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_URL</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> </SPAN><SPAN class="str">"http://www.google.com/reader/api/0/subscription/edit?client=scroll"</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_COOKIE</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> </SPAN><SPAN class="str">'SID='</SPAN><SPAN class="pun">.</SPAN><SPAN class="pln">$this</SPAN><SPAN class="pun">-&gt;</SPAN><SPAN class="pln">session_id</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_POST</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> </SPAN><SPAN class="lit">1</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_POSTFIELDS</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> </SPAN><SPAN class="str">'ac=unsubscribe&amp;s=feed/'</SPAN><SPAN class="pun">.</SPAN><SPAN class="pln"> urlencode</SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$feed_url</SPAN><SPAN class="pun">)</SPAN><SPAN class="pln"> </SPAN><SPAN class="pun">.</SPAN><SPAN class="str">'&amp;T='</SPAN><SPAN class="pun">.</SPAN><SPAN class="pln"> $token</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_USERAGENT</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> $this</SPAN><SPAN class="pun">-&gt;</SPAN><SPAN class="pln">user_agent</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_setopt </SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> CURLOPT_RETURNTRANSFER</SPAN><SPAN class="pun">,</SPAN><SPAN class="pln"> </SPAN><SPAN class="lit">1</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>$content </SPAN><SPAN class="pun">=</SPAN><SPAN class="pln"> curl_exec</SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">);</SPAN><SPAN class="pln"><BR>curl_close</SPAN><SPAN class="pun">(</SPAN><SPAN class="pln">$ch</SPAN><SPAN class="pun">);</SPAN></PRE>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/z.azmi3/">z.azmi3</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Fri Apr  9 10:22:21 2010">Apr 09, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P><A href="http://www.blogger.com/home" rel="nofollow">http://www.blogger.com/home</A> </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/justinlei/">justinlei</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Apr 11 16:36:18 2010">Apr 11, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<PRE class="prettyprint"><SPAN class="pln">google add a statue <BR></SPAN><SPAN class="typ">State</SPAN><SPAN class="pln"> name</SPAN><SPAN class="pun">:</SPAN><SPAN class="pln"> created </SPAN><SPAN class="typ">State</SPAN><SPAN class="pln"> meaning</SPAN><SPAN class="pun">:</SPAN><SPAN class="pln"> A read item will have the state create</SPAN><SPAN class="pun">.</SPAN><SPAN class="pln"> url</SPAN><SPAN class="pun">:</SPAN><SPAN class="pln">http</SPAN><SPAN class="pun">:</SPAN><SPAN class="com">//www.google.com/reader/atom/user/-/state/com.google/created</SPAN><SPAN class="pln"><BR><BR></SPAN><SPAN class="kwd">this</SPAN><SPAN class="pln"> </SPAN><SPAN class="kwd">is</SPAN><SPAN class="pln"> user comment items</SPAN><SPAN class="pun">.</SPAN></PRE>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/justinlei/">justinlei</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Apr 11 19:18:36 2010">Apr 11, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>google modified the access param "token" to "T" for "www.google.com/reader/api/0" </P><P>"/api/0/token" will return a string containing 22 chars </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/gurpreetji/">gurpreetji</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sun Apr 18 22:14:23 2010">Apr 18, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>How can I filter (or search) the feed results based on a keyword search, similar to how you search in google reader? </P><P>I am able to get the following results from a shared feed that I’ve made public. I actually get the same results with the following 2 URL’s (notice the first has “public” in it. </P><P><A href="http://www.google.com/reader/public/atom/user/02147574221729223002/bundle/Fantasy%20Football%20NFL%20Articles?n=10" rel="nofollow">http://www.google.com/reader/public/atom/user/02147574221729223002/bundle/Fantasy%20Football%20NFL%20Articles?n=10</A> </P><P><A href="http://www.google.com/reader/atom/user/02147574221729223002/bundle/Fantasy%20Football%20NFL%20Articles?n=10" rel="nofollow">http://www.google.com/reader/atom/user/02147574221729223002/bundle/Fantasy%20Football%20NFL%20Articles?n=10</A> </P><P>Lets say I wish to filter the results above based on a keyword, "Roethlisberger". </P><P>When I search a folder using the search form in reader, the url shows as: </P><P><A href="http://www.google.com/reader/view/#search/Roethlisberger//user%2F02147574221729223002%2Flabel%2FSports" rel="nofollow">http://www.google.com/reader/view/#search/Roethlisberger//user%2F02147574221729223002%2Flabel%2FSports</A> </P><P>If I change the reader tag to “atom”, the results are incorrect. </P><P>Thoughts? -Gurpreet </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/dinochristenson/">dinochristenson</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Mon Apr 19 11:43:37 2010">Apr 19, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Hi, I am trying to use the reader api to get feeds that I have been tracking since early 2009. However, I noticed that my feeds seem to only read 1000 items before a limit is reached. Is there some setting that allows one to access feeds with a much higher maximum number count? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/thomas.hodder/">thomas.hodder</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Fri May 14 10:38:12 2010">May 14, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Hi, Any idea how to search for a particular entry guid, or original-id? </P><P>I know the original-id and I want to make updates to the google version, how do I map between? Thanks, T </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/bandie9100/">bandie9100</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Wed May 19 08:42:02 2010">May 19, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Is cookie SID a secure thing? I get it via /accounts/ClientLogin<A href="http://code.google.com/p/pyrfeed/w/edit/ClientLogin">?</A>, then i unvalidate it via /accounts/Logout, but stil can feach private data with  curl -H "Cookie: SID=$SID" ... What about, if anyone found one of my SID strings? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/fmstrat/">fmstrat</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Thu May 27 08:40:49 2010">May 27, 2010</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Hey everyone, </P><P>I'm getting 400 errors when trying to star an item, and I can't figure out why.  Here is the URL: </P><P><A href="http://www.google.com/reader/api/0/edit-tag?i=tag%3Agoogle.com%2C2005%3Areader%2Fitem%2F97e73baae1c833d6&s=feed%2Fhttp%3A%2F%2Fwww.slickdeals.net%2Frss.php&a=user%2F-%2Fstate%2Fcom.google%2Fstarred&T=_2g76ZvXODPljRi-gCP42A" rel="nofollow">http://www.google.com/reader/api/0/edit-tag?i=tag%3Agoogle.com%2C2005%3Areader%2Fitem%2F97e73baae1c833d6&amp;s=feed%2Fhttp%3A%2F%2Fwww.slickdeals.net%2Frss.php&amp;a=user%2F-%2Fstate%2Fcom.google%2Fstarred&amp;T=_2g76ZvXODPljRi-gCP42A</A> </P><P>I've also tried passing ac=edit, ac=edit-tags, and URL Encoding and not URL Encoding variables.  I am passing the SID as a cookie, and all my queries work fine, such as getting unread lists and items.  But as soon as I try to use the edit-tag api it fails. </P><P>Ideas? </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/liviu.daniel.cristea/">liviu.daniel.cristea</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Sat May 29 05:32:51 2010">May 29 (6 days ago)</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>Any new opinions on how to subscrie to a feed ? I'm using C#: </P><P>I create a http web request with POST here: <A href="http://www.google.com/reader/api/0/subscription/quickadd" rel="nofollow">http://www.google.com/reader/api/0/subscription/quickadd</A> with GET params : client = scroll and ck = ... and POST params : quickadd = feedURL, T = token </P><P>I attached the cookie and pust an user agent to the request, but I still get 401. Is there someone who has succeeded in making this request ? I've double checked with these params using Firebug, but still no succes </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+ 
+ <DIV class="artifactcomment">
+ 
+ 
+ 
+ 
+ 
+ 
+ <SPAN class="author">Comment
+ 
+ by
+ 
+ <A style="white-space: nowrap" href="http://code.google.com/u/cosina1985/">cosina1985</A>,
+ 
+ </SPAN>
+ <SPAN class="date" title="Mon May 31 06:13:46 2010">May 31 (4 days ago)</SPAN>
+ <DIV>
+<DIV class="commentcontent">
+<P>hey can anyone tell me about  how to get 'ot' value?  </P>
+</DIV>
+ 
+ 
+ </DIV>
+ </DIV>
+ 
+
+</DIV>
+</DIV>
+
+ 
+
+
+ <SCRIPT type="text/javascript">
+ function delComment(sequence_num, delete_mode) {
+ var f = document.forms["delcom"];
+ f.sequence_num.value = sequence_num;
+ f.mode.value = delete_mode;
+ f.submit();
+ return false;
+ }
+ </SCRIPT>
+
+
+ 
+ 
+ 
+ 
+ 
+ <DIV id="commentform">
+ <FORM action="http://code.google.com/p/pyrfeed/w/detail.do" method="post">
+ <TABLE>
+ <TBODY><TR><TD class="vt">
+ <INPUT type="hidden" name="pagename" value="GoogleReaderAPI">
+ <INPUT type="hidden" name="token" value="7e8e2bb0da395469e31ce1a341dca30a">
+ <DIV>Enter a comment:</DIV>
+ <TEXTAREA name="content" rows="6" cols="80"></TEXTAREA><BR><BR>
+ <INPUT type="submit" name="submit" value="Submit">
+ </TD>
+ <TD class="vt">
+ <DIV id="whb" class="tip" style="width:15em">
+ <DIV class="round4"></DIV>
+ <DIV class="round2"></DIV>
+ <DIV class="round1"></DIV>
+ <DIV class="box-inner closed" id="entrybubble">
+ <A class="ifClosed" href="http://code.google.com/p/pyrfeed/wiki/GoogleReaderAPI#whb" style="float:right" onclick="_toggleHidden(this); document.getElementById(&#39;wikihelp&#39;).value=&#39;opened&#39;">show</A>
+ <A class="ifOpened" href="http://code.google.com/p/pyrfeed/wiki/GoogleReaderAPI#whb" style="float:right" onclick="_toggleHidden(this); document.getElementById(&#39;wikihelp&#39;).value=&#39;closed&#39;">hide</A>
+ <B>Wiki markup help</B>
+ <DIV class="ifOpened">
+ <DIV style="padding:2px; font-size:96%">
+ =Heading1=<BR>
+ ==Heading2==<BR>
+ ===Heading3===<BR>
+ <BR>
+ *bold* &nbsp; &nbsp;
+ _italic_<BR>
+ `inline code`<BR>
+ escape: `*`<BR>
+ <BR>
+ Indent lists 2 spaces:<BR>
+ &nbsp;&nbsp;* bullet item<BR>
+ &nbsp;&nbsp;# numbered list<BR>
+ <BR>
+ {{{<BR>
+ verbatim code block<BR>
+ }}}<BR>
+ <BR>
+ Horizontal rule<BR>
+ ----
+ <BR>
+ <BR>
+ WikiWordLink<BR>
+ [http://domain/page&nbsp;label]<BR>
+ http://domain/page<BR>
+ <BR>
+ || table || cells ||<BR>
+ 
+ </DIV><BR>
+ <A href="http://code.google.com/p/support/wiki/WikiSyntax" target="new">More
+ examples</A>
+ <A href="http://code.google.com/p/support/wiki/WikiSyntax" target="new"><IMG src="./GoogleReaderAPI - pyrfeed - Project Hosting on Google Code_files/tearoff_icon.gif" width="16" height="16"></A>
+ </DIV>
+ </DIV>
+ <DIV class="round1"></DIV>
+ <DIV class="round2"></DIV>
+ <DIV class="round4"></DIV>
+</DIV>
+<INPUT type="hidden" name="wikihelp" id="wikihelp" value="closed">
+
+ </TD></TR>
+ </TBODY></TABLE>
+ </FORM>
+ </DIV>
+ 
+ 
+ 
+
+<FORM name="delcom" action="http://code.google.com/p/pyrfeed/w/delComment.do" method="POST">
+ <INPUT type="hidden" name="sequence_num" value="">
+ <INPUT type="hidden" name="mode" value="">
+ <INPUT type="hidden" name="pagename" value="GoogleReaderAPI">
+ <INPUT type="hidden" name="token" value="7e8e2bb0da395469e31ce1a341dca30a">
+</FORM>
+
+
+
+<SCRIPT src="./GoogleReaderAPI - pyrfeed - Project Hosting on Google Code_files/prettify.js"></SCRIPT>
+<SCRIPT type="text/javascript">
+ prettyPrint();
+</SCRIPT>
+<SCRIPT type="text/javascript" src="./GoogleReaderAPI - pyrfeed - Project Hosting on Google Code_files/dit_scripts_20081013.js"></SCRIPT>
+
+
+
+  
+ 
+ <SCRIPT type="text/javascript" src="./GoogleReaderAPI - pyrfeed - Project Hosting on Google Code_files/core_scripts_20081103.js"></SCRIPT>
+ <SCRIPT type="text/javascript" src="./GoogleReaderAPI - pyrfeed - Project Hosting on Google Code_files/codesite_product_dictionary_ph.pack.04102009.js"></SCRIPT>
+ </DIV>
+<DIV id="footer" dir="ltr">
+ 
+ <DIV class="text">
+ 
+ ©2010 Google -
+ <A href="http://code.google.com/projecthosting/terms.html">Terms</A> -
+ <A href="http://www.google.com/privacy.html">Privacy</A> -
+ <A href="http://code.google.com/p/support/">Project Hosting Help</A>
+ 
+ </DIV>
+</DIV>
+
+ <DIV class="hostedBy" style="margin-top: -20px;">
+ <SPAN style="vertical-align: top;">Powered by <A href="http://code.google.com/projecthosting/">Google Project Hosting</A></SPAN>
+ </DIV>
+ 
+ 
+
+
+ 
+ 
+ <SCRIPT type="text/javascript">_CS_reportToCsi();</SCRIPT>
+ 
+ 
+
+
+
+<DIV class="menuDiv instance0" id="menuDiv-projects-dropdown" style="position: absolute; display: none; top: 18px; left: 832px; "><DIV class="menuCategory controls first"><HR class="menuSeparator"><A class="menuItem" style="display: block; " href="http://code.google.com/more/">Find developer products...</A><A class="menuItem" style="display: block; " href="http://code.google.com/hosting/">Find open source projects...</A></DIV></DIV></BODY></HTML>
