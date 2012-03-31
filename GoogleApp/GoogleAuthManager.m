@@ -69,8 +69,7 @@ static GoogleAuthManager *shareAuthManager = nil;
    forHTTPHeaderField:@"user-agent"];
 	//add cookies
 	request = [self addCookiesToURLRequest:request];
-	
-	DebugLog(@"%@", [request description]);
+	DebugLog(@"%@", [request.allHTTPHeaderFields description]);
 	
 	return [[request retain] autorelease];
 }
@@ -520,8 +519,9 @@ static GoogleAuthManager *shareAuthManager = nil;
     return NSUIntegerMax;  //denotes an object that cannot be released
 }
 
-- (void)release
+- (oneway void)release
 {
+    return;
     //do nothing
 }
 

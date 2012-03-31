@@ -10,19 +10,10 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		22113AB51279C72600DE2FEE /* GRDiscover.m in Sources */ = {isa = PBXBuildFile; fileRef = 22113AB41279C72600DE2FEE /* GRDiscover.m */; };
 		22113AF61279CC2700DE2FEE /* recommendedItems.png in Resources */ = {isa = PBXBuildFile; fileRef = 22113AF51279CC2700DE2FEE /* recommendedItems.png */; };
 		22113AF81279CC3400DE2FEE /* recommendedItems@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22113AF71279CC3400DE2FEE /* recommendedItems@2x.png */; };
 		22113B581279D26600DE2FEE /* RecommendedFeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22113B561279D26600DE2FEE /* RecommendedFeedsViewController.m */; };
 		2215F70911B9F14900B75128 /* GoogleAppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F70811B9F14900B75128 /* GoogleAppConstants.m */; };
-		2215F82311BAA24100B75128 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F81811BAA24100B75128 /* NSObject+SBJSON.m */; };
-		2215F82411BAA24100B75128 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F81A11BAA24100B75128 /* NSString+SBJSON.m */; };
-		2215F82511BAA24100B75128 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F81C11BAA24100B75128 /* SBJSON.m */; };
-		2215F82611BAA24100B75128 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F81E11BAA24100B75128 /* SBJsonBase.m */; };
-		2215F82711BAA24100B75128 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F82011BAA24100B75128 /* SBJsonParser.m */; };
-		2215F82811BAA24100B75128 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F82211BAA24100B75128 /* SBJsonWriter.m */; };
-		2215F83711BD2B5100B75128 /* GRFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F83611BD2B5100B75128 /* GRFeed.m */; };
-		2215F83A11BD2B5E00B75128 /* GRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F83911BD2B5E00B75128 /* GRItem.m */; };
 		2215F89D11BD414900B75128 /* URLParameterSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2215F89C11BD414900B75128 /* URLParameterSet.m */; };
 		221677FD1250C0B200D1AE5B /* DefaultPad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 221677FC1250C0B200D1AE5B /* DefaultPad-Portrait.png */; };
 		2216781D1250C3C300D1AE5B /* DefaultPad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 2216781C1250C3C300D1AE5B /* DefaultPad-Landscape.png */; };
@@ -45,7 +36,30 @@
 		221819B2120DA8E9003E9170 /* DownloaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221819B1120DA8E9003E9170 /* DownloaderViewController.m */; };
 		22181A72120E59D9003E9170 /* AllSubscriptionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 22181A71120E59D9003E9170 /* AllSubscriptionDataSource.m */; };
 		22181AF4120E7D77003E9170 /* AllSubscriptionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22181AF3120E7D77003E9170 /* AllSubscriptionViewCell.m */; };
+		221C98D514C1378000D3F699 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 221C98D414C1378000D3F699 /* libxml2.2.dylib */; };
 		221DA61D1275D2CB001F27DB /* discoveryitems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 221DA61C1275D2CB001F27DB /* discoveryitems.plist */; };
+		221E436914A205FC002919E2 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E435E14A205FC002919E2 /* NSObject+SBJSON.m */; };
+		221E436A14A205FC002919E2 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E436014A205FC002919E2 /* NSString+SBJSON.m */; };
+		221E436B14A205FC002919E2 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E436214A205FC002919E2 /* SBJSON.m */; };
+		221E436C14A205FC002919E2 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E436414A205FC002919E2 /* SBJsonBase.m */; };
+		221E436D14A205FC002919E2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E436614A205FC002919E2 /* SBJsonParser.m */; };
+		221E436E14A205FC002919E2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E436814A205FC002919E2 /* SBJsonWriter.m */; };
+		221E439514A2070E002919E2 /* GoogleReaderStoreModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 221E438614A2070E002919E2 /* GoogleReaderStoreModel.xcdatamodel */; };
+		221E439614A2070E002919E2 /* GRDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E438814A2070E002919E2 /* GRDownloadManager.m */; };
+		221E439714A2070E002919E2 /* GRItemDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E438A14A2070E002919E2 /* GRItemDownloader.m */; };
+		221E439814A2070E002919E2 /* GRItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E438C14A2070E002919E2 /* GRItemModel.m */; };
+		221E439914A2070E002919E2 /* GRObjectsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E438E14A2070E002919E2 /* GRObjectsManager.m */; };
+		221E439A14A2070E002919E2 /* GRSubDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E439014A2070E002919E2 /* GRSubDownloader.m */; };
+		221E439B14A2070E002919E2 /* GRSubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E439214A2070E002919E2 /* GRSubModel.m */; };
+		221E439C14A2070E002919E2 /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E439414A2070E002919E2 /* ImageDownloader.m */; };
+		221E43EF14A207FA002919E2 /* GRDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E43D214A207FA002919E2 /* GRDataManager.m */; };
+		221E43F014A207FA002919E2 /* GRDiscover.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E43D414A207FA002919E2 /* GRDiscover.m */; };
+		221E43F214A207FA002919E2 /* GRFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E43D814A207FA002919E2 /* GRFeed.m */; };
+		221E43F314A207FA002919E2 /* GRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E43DA14A207FA002919E2 /* GRItem.m */; };
+		221E43F714A207FA002919E2 /* GRRecFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E43E214A207FA002919E2 /* GRRecFeed.m */; };
+		221E43F814A207FA002919E2 /* GRRecItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E43E414A207FA002919E2 /* GRRecItem.m */; };
+		221E43FB14A207FA002919E2 /* GRSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E43EA14A207FA002919E2 /* GRSubscription.m */; };
+		221E43FC14A207FA002919E2 /* GRTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E43EC14A207FA002919E2 /* GRTag.m */; };
 		22264D67123C7D2500052489 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C7F81E11CFBE1C00AEA6A1 /* LoginViewController.xib */; };
 		22265117123CF25100052489 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 22265115123CF25100052489 /* email.png */; };
 		22265118123CF25100052489 /* email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22265116123CF25100052489 /* email@2x.png */; };
@@ -61,7 +75,6 @@
 		2244827E121C33B500EC90BD /* TSCellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244827C121C33B500EC90BD /* TSCellBackgroundView.m */; };
 		224483C3121D879600EC90BD /* DownloadedItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224483C2121D879600EC90BD /* DownloadedItemsViewController.m */; };
 		2244850F121EB95500EC90BD /* MainTabBarController_pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244850E121EB95500EC90BD /* MainTabBarController_pad.m */; };
-		224485AB121ED35A00EC90BD /* GRSubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 224485AA121ED35A00EC90BD /* GRSubModel.m */; };
 		22448623121F7DB300EC90BD /* DownloadedItemsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 22448622121F7DB300EC90BD /* DownloadedItemsDataSource.m */; };
 		224E1F1911D77E2900D9896F /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224E1F1711D77E2900D9896F /* ItemViewController.m */; };
 		224E1F1A11D77E2900D9896F /* ItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224E1F1811D77E2900D9896F /* ItemViewController.xib */; };
@@ -105,18 +118,10 @@
 		2295D22F122E94A900F69E4E /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 2295D22E122E94A900F69E4E /* stop.png */; };
 		2295D231122E94CB00F69E4E /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2295D230122E94CB00F69E4E /* play@2x.png */; };
 		2295D234122E950000F69E4E /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 2295D233122E950000F69E4E /* play.png */; };
-		229A1CF4126F171700E51BF9 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 229A1CF3126F171700E51BF9 /* libxml2.2.dylib */; };
 		229A1D10126F18A300E51BF9 /* GRATOMXMLParser_new.m in Sources */ = {isa = PBXBuildFile; fileRef = 229A1D0F126F18A300E51BF9 /* GRATOMXMLParser_new.m */; };
 		229BB5B111F5E03300AACA1A /* UserPreferenceDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BB5B011F5E03300AACA1A /* UserPreferenceDefine.m */; };
 		229BB6CC11F889D500AACA1A /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BB6CB11F889D500AACA1A /* RegexKitLite.m */; };
 		229BB99811FC3E0200AACA1A /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BB99711FC3E0200AACA1A /* NSString+MD5.m */; };
-		229BB9B211FC826F00AACA1A /* GRDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BB9B111FC826F00AACA1A /* GRDownloadManager.m */; };
-		229BB9B911FC844B00AACA1A /* GRSubDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BB9B811FC844B00AACA1A /* GRSubDownloader.m */; };
-		229BBAC2120079FA00AACA1A /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BBAC1120079FA00AACA1A /* ImageDownloader.m */; };
-		229BBAF31201B5E700AACA1A /* GRItemDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BBAF21201B5E700AACA1A /* GRItemDownloader.m */; };
-		229BBCB912041B8000AACA1A /* GoogleReaderStoreModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 229BBCB812041B8000AACA1A /* GoogleReaderStoreModel.xcdatamodel */; };
-		229BBCC61204217000AACA1A /* GRItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BBCC51204217000AACA1A /* GRItemModel.m */; };
-		229BBCF41204260600AACA1A /* GRObjectsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BBCF31204260600AACA1A /* GRObjectsManager.m */; };
 		229BBD3D1204293D00AACA1A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229BBD3C1204293D00AACA1A /* CoreData.framework */; };
 		229C819D123A218500B51CEE /* LoginViewControllerPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 229C819B123A218500B51CEE /* LoginViewControllerPad.m */; };
 		229C819E123A218500B51CEE /* LoginViewControllerPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229C819C123A218500B51CEE /* LoginViewControllerPad.xib */; };
@@ -137,14 +142,11 @@
 		22C7ED2511CBCCE700AEA6A1 /* TagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7ED2311CBCCE700AEA6A1 /* TagViewController.m */; };
 		22C7ED2A11CBCCF500AEA6A1 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7ED2811CBCCF500AEA6A1 /* FeedViewController.m */; };
 		22C7ED7E11CBD28A00AEA6A1 /* OnlineReaderNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7ED7D11CBD28A00AEA6A1 /* OnlineReaderNavigationController.m */; };
-		22C7ED8F11CBD4C700AEA6A1 /* GRDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7ED8E11CBD4C700AEA6A1 /* GRDataManager.m */; };
 		22C7EE1511CCA2A500AEA6A1 /* HomeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7EE1411CCA2A500AEA6A1 /* HomeDataSource.m */; };
 		22C7EE1811CCA2BE00AEA6A1 /* TagDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7EE1711CCA2BE00AEA6A1 /* TagDataSource.m */; };
 		22C7EE1B11CCA2DD00AEA6A1 /* FeedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7EE1A11CCA2DD00AEA6A1 /* FeedDataSource.m */; };
 		22C7EF8111CCD0D600AEA6A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22C7EF8011CCD0D600AEA6A1 /* Localizable.strings */; };
 		22C7F40211CE215F00AEA6A1 /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7F40111CE215F00AEA6A1 /* ItemTableViewCell.m */; };
-		22C7F41C11CE294400AEA6A1 /* GRTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7F41B11CE294400AEA6A1 /* GRTag.m */; };
-		22C7F41F11CE295400AEA6A1 /* GRSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7F41E11CE295400AEA6A1 /* GRSubscription.m */; };
 		22C7F81F11CFBE1C00AEA6A1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7F81D11CFBE1C00AEA6A1 /* LoginViewController.m */; };
 		22C7F9CE11D0F9DD00AEA6A1 /* BaseReaderDataSouce.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7F9CD11D0F9DD00AEA6A1 /* BaseReaderDataSouce.m */; };
 		22D8325B11C29E2600E7AB78 /* GoogleMessageParsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8325A11C29E2600E7AB78 /* GoogleMessageParsers.m */; };
@@ -153,8 +155,6 @@
 		22E1348512819AF7000CE2D5 /* RecFeedsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E1348412819AF7000CE2D5 /* RecFeedsCell.m */; };
 		22E134BB1281A5C2000CE2D5 /* subscribe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E134B91281A5C2000CE2D5 /* subscribe@2x.png */; };
 		22E134BC1281A5C2000CE2D5 /* subscribe.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E134BA1281A5C2000CE2D5 /* subscribe.png */; };
-		22E134C91281A7E0000CE2D5 /* GRRecFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E134C81281A7E0000CE2D5 /* GRRecFeed.m */; };
-		22E134EA1281A9CA000CE2D5 /* GRRecItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E134E91281A9CA000CE2D5 /* GRRecItem.m */; };
 		22E3CF481247A2E800AA499C /* share_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E3CF441247A2E800AA499C /* share_empty.png */; };
 		22E3CF491247A2E800AA499C /* share_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E3CF451247A2E800AA499C /* share_empty@2x.png */; };
 		22E3CF4A1247A2E800AA499C /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E3CF461247A2E800AA499C /* share@2x.png */; };
@@ -180,30 +180,11 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* BreezyReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreezyReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		22113AB31279C72600DE2FEE /* GRDiscover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDiscover.h; sourceTree = "<group>"; };
-		22113AB41279C72600DE2FEE /* GRDiscover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDiscover.m; sourceTree = "<group>"; };
 		22113AF51279CC2700DE2FEE /* recommendedItems.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recommendedItems.png; sourceTree = "<group>"; };
 		22113AF71279CC3400DE2FEE /* recommendedItems@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recommendedItems@2x.png"; sourceTree = "<group>"; };
 		22113B551279D26600DE2FEE /* RecommendedFeedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendedFeedsViewController.h; sourceTree = "<group>"; };
 		22113B561279D26600DE2FEE /* RecommendedFeedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendedFeedsViewController.m; sourceTree = "<group>"; };
 		2215F70811B9F14900B75128 /* GoogleAppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAppConstants.m; sourceTree = "<group>"; };
-		2215F81611BAA24100B75128 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
-		2215F81711BAA24100B75128 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
-		2215F81811BAA24100B75128 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
-		2215F81911BAA24100B75128 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
-		2215F81A11BAA24100B75128 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
-		2215F81B11BAA24100B75128 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
-		2215F81C11BAA24100B75128 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
-		2215F81D11BAA24100B75128 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
-		2215F81E11BAA24100B75128 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
-		2215F81F11BAA24100B75128 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
-		2215F82011BAA24100B75128 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
-		2215F82111BAA24100B75128 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		2215F82211BAA24100B75128 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		2215F83511BD2B5100B75128 /* GRFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRFeed.h; sourceTree = "<group>"; };
-		2215F83611BD2B5100B75128 /* GRFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRFeed.m; sourceTree = "<group>"; };
-		2215F83811BD2B5E00B75128 /* GRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRItem.h; sourceTree = "<group>"; };
-		2215F83911BD2B5E00B75128 /* GRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRItem.m; sourceTree = "<group>"; };
 		2215F89B11BD414900B75128 /* URLParameterSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLParameterSet.h; sourceTree = "<group>"; };
 		2215F89C11BD414900B75128 /* URLParameterSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLParameterSet.m; sourceTree = "<group>"; };
 		221677FC1250C0B200D1AE5B /* DefaultPad-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultPad-Portrait.png"; sourceTree = "<group>"; };
@@ -232,13 +213,58 @@
 		22181A71120E59D9003E9170 /* AllSubscriptionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllSubscriptionDataSource.m; sourceTree = "<group>"; };
 		22181AF2120E7D77003E9170 /* AllSubscriptionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllSubscriptionViewCell.h; sourceTree = "<group>"; };
 		22181AF3120E7D77003E9170 /* AllSubscriptionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllSubscriptionViewCell.m; sourceTree = "<group>"; };
+		221C98D414C1378000D3F699 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		221DA61C1275D2CB001F27DB /* discoveryitems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = discoveryitems.plist; sourceTree = "<group>"; };
+		221E435C14A205FC002919E2 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		221E435D14A205FC002919E2 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		221E435E14A205FC002919E2 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		221E435F14A205FC002919E2 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		221E436014A205FC002919E2 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		221E436114A205FC002919E2 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		221E436214A205FC002919E2 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		221E436314A205FC002919E2 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		221E436414A205FC002919E2 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		221E436514A205FC002919E2 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		221E436614A205FC002919E2 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		221E436714A205FC002919E2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		221E436814A205FC002919E2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		221E438614A2070E002919E2 /* GoogleReaderStoreModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoogleReaderStoreModel.xcdatamodel; sourceTree = "<group>"; };
+		221E438714A2070E002919E2 /* GRDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDownloadManager.h; sourceTree = "<group>"; };
+		221E438814A2070E002919E2 /* GRDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDownloadManager.m; sourceTree = "<group>"; };
+		221E438914A2070E002919E2 /* GRItemDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRItemDownloader.h; sourceTree = "<group>"; };
+		221E438A14A2070E002919E2 /* GRItemDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRItemDownloader.m; sourceTree = "<group>"; };
+		221E438B14A2070E002919E2 /* GRItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRItemModel.h; sourceTree = "<group>"; };
+		221E438C14A2070E002919E2 /* GRItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRItemModel.m; sourceTree = "<group>"; };
+		221E438D14A2070E002919E2 /* GRObjectsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRObjectsManager.h; sourceTree = "<group>"; };
+		221E438E14A2070E002919E2 /* GRObjectsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRObjectsManager.m; sourceTree = "<group>"; };
+		221E438F14A2070E002919E2 /* GRSubDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSubDownloader.h; sourceTree = "<group>"; };
+		221E439014A2070E002919E2 /* GRSubDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSubDownloader.m; sourceTree = "<group>"; };
+		221E439114A2070E002919E2 /* GRSubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSubModel.h; sourceTree = "<group>"; };
+		221E439214A2070E002919E2 /* GRSubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSubModel.m; sourceTree = "<group>"; };
+		221E439314A2070E002919E2 /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		221E439414A2070E002919E2 /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		221E43D014A207FA002919E2 /* GRBaseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRBaseProtocol.h; sourceTree = "<group>"; };
+		221E43D114A207FA002919E2 /* GRDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDataManager.h; sourceTree = "<group>"; };
+		221E43D214A207FA002919E2 /* GRDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDataManager.m; sourceTree = "<group>"; };
+		221E43D314A207FA002919E2 /* GRDiscover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDiscover.h; sourceTree = "<group>"; };
+		221E43D414A207FA002919E2 /* GRDiscover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDiscover.m; sourceTree = "<group>"; };
+		221E43D714A207FA002919E2 /* GRFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRFeed.h; sourceTree = "<group>"; };
+		221E43D814A207FA002919E2 /* GRFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRFeed.m; sourceTree = "<group>"; };
+		221E43D914A207FA002919E2 /* GRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRItem.h; sourceTree = "<group>"; };
+		221E43DA14A207FA002919E2 /* GRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRItem.m; sourceTree = "<group>"; };
+		221E43E114A207FA002919E2 /* GRRecFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRecFeed.h; sourceTree = "<group>"; };
+		221E43E214A207FA002919E2 /* GRRecFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRRecFeed.m; sourceTree = "<group>"; };
+		221E43E314A207FA002919E2 /* GRRecItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRecItem.h; sourceTree = "<group>"; };
+		221E43E414A207FA002919E2 /* GRRecItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRRecItem.m; sourceTree = "<group>"; };
+		221E43E914A207FA002919E2 /* GRSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSubscription.h; sourceTree = "<group>"; };
+		221E43EA14A207FA002919E2 /* GRSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSubscription.m; sourceTree = "<group>"; };
+		221E43EB14A207FA002919E2 /* GRTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRTag.h; sourceTree = "<group>"; };
+		221E43EC14A207FA002919E2 /* GRTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRTag.m; sourceTree = "<group>"; };
 		22265115123CF25100052489 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
 		22265116123CF25100052489 /* email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email@2x.png"; sourceTree = "<group>"; };
 		222A79F2128836B8002BC57E /* AddNewTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewTagViewController.h; sourceTree = "<group>"; };
 		222A79F3128836B8002BC57E /* AddNewTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewTagViewController.m; sourceTree = "<group>"; };
 		222A79F4128836B8002BC57E /* AddNewTagViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewTagViewController.xib; sourceTree = "<group>"; };
-		222D54FB11D4490D0002830C /* GRBaseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRBaseProtocol.h; sourceTree = "<group>"; };
 		222D551A11D452E10002830C /* TagSubTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagSubTableViewCell.h; sourceTree = "<group>"; };
 		222D551B11D452E10002830C /* TagSubTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagSubTableViewCell.m; sourceTree = "<group>"; };
 		22305C5712B8F69800CFF224 /* ItemWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemWebView.h; sourceTree = "<group>"; };
@@ -258,8 +284,6 @@
 		224483C2121D879600EC90BD /* DownloadedItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadedItemsViewController.m; sourceTree = "<group>"; };
 		2244850D121EB95500EC90BD /* MainTabBarController_pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController_pad.h; sourceTree = "<group>"; };
 		2244850E121EB95500EC90BD /* MainTabBarController_pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController_pad.m; sourceTree = "<group>"; };
-		224485A9121ED35A00EC90BD /* GRSubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSubModel.h; sourceTree = "<group>"; };
-		224485AA121ED35A00EC90BD /* GRSubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSubModel.m; sourceTree = "<group>"; };
 		22448621121F7DB300EC90BD /* DownloadedItemsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadedItemsDataSource.h; sourceTree = "<group>"; };
 		22448622121F7DB300EC90BD /* DownloadedItemsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadedItemsDataSource.m; sourceTree = "<group>"; };
 		224E1F1611D77E2900D9896F /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
@@ -323,7 +347,6 @@
 		2295D22E122E94A900F69E4E /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 		2295D230122E94CB00F69E4E /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		2295D233122E950000F69E4E /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		229A1CF3126F171700E51BF9 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libxml2.2.dylib; sourceTree = "<group>"; };
 		229A1D0E126F18A300E51BF9 /* GRATOMXMLParser_new.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRATOMXMLParser_new.h; sourceTree = "<group>"; };
 		229A1D0F126F18A300E51BF9 /* GRATOMXMLParser_new.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRATOMXMLParser_new.m; sourceTree = "<group>"; };
 		229A1D19126F1CD400E51BF9 /* GRATOMXMLParser_new+private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GRATOMXMLParser_new+private.h"; sourceTree = "<group>"; };
@@ -332,19 +355,6 @@
 		229BB6CB11F889D500AACA1A /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		229BB99611FC3E0200AACA1A /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		229BB99711FC3E0200AACA1A /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
-		229BB9B011FC826F00AACA1A /* GRDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDownloadManager.h; sourceTree = "<group>"; };
-		229BB9B111FC826F00AACA1A /* GRDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDownloadManager.m; sourceTree = "<group>"; };
-		229BB9B711FC844B00AACA1A /* GRSubDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSubDownloader.h; sourceTree = "<group>"; };
-		229BB9B811FC844B00AACA1A /* GRSubDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSubDownloader.m; sourceTree = "<group>"; };
-		229BBAC0120079FA00AACA1A /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
-		229BBAC1120079FA00AACA1A /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
-		229BBAF11201B5E700AACA1A /* GRItemDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRItemDownloader.h; sourceTree = "<group>"; };
-		229BBAF21201B5E700AACA1A /* GRItemDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRItemDownloader.m; sourceTree = "<group>"; };
-		229BBCB812041B8000AACA1A /* GoogleReaderStoreModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = GoogleReaderStoreModel.xcdatamodel; sourceTree = "<group>"; };
-		229BBCC41204217000AACA1A /* GRItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRItemModel.h; sourceTree = "<group>"; };
-		229BBCC51204217000AACA1A /* GRItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRItemModel.m; sourceTree = "<group>"; };
-		229BBCF21204260600AACA1A /* GRObjectsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRObjectsManager.h; sourceTree = "<group>"; };
-		229BBCF31204260600AACA1A /* GRObjectsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRObjectsManager.m; sourceTree = "<group>"; };
 		229BBD3C1204293D00AACA1A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		229C819A123A218500B51CEE /* LoginViewControllerPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewControllerPad.h; sourceTree = "<group>"; };
 		229C819B123A218500B51CEE /* LoginViewControllerPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewControllerPad.m; sourceTree = "<group>"; };
@@ -377,8 +387,6 @@
 		22C7ED2811CBCCF500AEA6A1 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
 		22C7ED7C11CBD28A00AEA6A1 /* OnlineReaderNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineReaderNavigationController.h; sourceTree = "<group>"; };
 		22C7ED7D11CBD28A00AEA6A1 /* OnlineReaderNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlineReaderNavigationController.m; sourceTree = "<group>"; };
-		22C7ED8D11CBD4C700AEA6A1 /* GRDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDataManager.h; sourceTree = "<group>"; };
-		22C7ED8E11CBD4C700AEA6A1 /* GRDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDataManager.m; sourceTree = "<group>"; };
 		22C7EE1311CCA2A500AEA6A1 /* HomeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDataSource.h; sourceTree = "<group>"; };
 		22C7EE1411CCA2A500AEA6A1 /* HomeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDataSource.m; sourceTree = "<group>"; };
 		22C7EE1611CCA2BE00AEA6A1 /* TagDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagDataSource.h; sourceTree = "<group>"; };
@@ -389,10 +397,6 @@
 		22C7EF7E11CCD0C100AEA6A1 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		22C7F40011CE215F00AEA6A1 /* ItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTableViewCell.h; sourceTree = "<group>"; };
 		22C7F40111CE215F00AEA6A1 /* ItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTableViewCell.m; sourceTree = "<group>"; };
-		22C7F41A11CE294400AEA6A1 /* GRTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRTag.h; sourceTree = "<group>"; };
-		22C7F41B11CE294400AEA6A1 /* GRTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRTag.m; sourceTree = "<group>"; };
-		22C7F41D11CE295400AEA6A1 /* GRSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSubscription.h; sourceTree = "<group>"; };
-		22C7F41E11CE295400AEA6A1 /* GRSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSubscription.m; sourceTree = "<group>"; };
 		22C7F81C11CFBE1C00AEA6A1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		22C7F81D11CFBE1C00AEA6A1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		22C7F81E11CFBE1C00AEA6A1 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -406,10 +410,6 @@
 		22E1348412819AF7000CE2D5 /* RecFeedsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecFeedsCell.m; sourceTree = "<group>"; };
 		22E134B91281A5C2000CE2D5 /* subscribe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subscribe@2x.png"; sourceTree = "<group>"; };
 		22E134BA1281A5C2000CE2D5 /* subscribe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subscribe.png; sourceTree = "<group>"; };
-		22E134C71281A7E0000CE2D5 /* GRRecFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRecFeed.h; sourceTree = "<group>"; };
-		22E134C81281A7E0000CE2D5 /* GRRecFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRRecFeed.m; sourceTree = "<group>"; };
-		22E134E81281A9CA000CE2D5 /* GRRecItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRecItem.h; sourceTree = "<group>"; };
-		22E134E91281A9CA000CE2D5 /* GRRecItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRRecItem.m; sourceTree = "<group>"; };
 		22E3CF441247A2E800AA499C /* share_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_empty.png; sourceTree = "<group>"; };
 		22E3CF451247A2E800AA499C /* share_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_empty@2x.png"; sourceTree = "<group>"; };
 		22E3CF461247A2E800AA499C /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
@@ -447,12 +447,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221C98D514C1378000D3F699 /* libxml2.2.dylib in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				22C27C2811E0831E00A2CAA0 /* MessageUI.framework in Frameworks */,
 				229BBD3D1204293D00AACA1A /* CoreData.framework in Frameworks */,
-				229A1CF4126F171700E51BF9 /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,22 +467,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2215F81511BAA24100B75128 /* JSON */ = {
+		221E435B14A205FC002919E2 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				2215F81611BAA24100B75128 /* JSON.h */,
-				2215F81711BAA24100B75128 /* NSObject+SBJSON.h */,
-				2215F81811BAA24100B75128 /* NSObject+SBJSON.m */,
-				2215F81911BAA24100B75128 /* NSString+SBJSON.h */,
-				2215F81A11BAA24100B75128 /* NSString+SBJSON.m */,
-				2215F81B11BAA24100B75128 /* SBJSON.h */,
-				2215F81C11BAA24100B75128 /* SBJSON.m */,
-				2215F81D11BAA24100B75128 /* SBJsonBase.h */,
-				2215F81E11BAA24100B75128 /* SBJsonBase.m */,
-				2215F81F11BAA24100B75128 /* SBJsonParser.h */,
-				2215F82011BAA24100B75128 /* SBJsonParser.m */,
-				2215F82111BAA24100B75128 /* SBJsonWriter.h */,
-				2215F82211BAA24100B75128 /* SBJsonWriter.m */,
+				221E435C14A205FC002919E2 /* JSON.h */,
+				221E435D14A205FC002919E2 /* NSObject+SBJSON.h */,
+				221E435E14A205FC002919E2 /* NSObject+SBJSON.m */,
+				221E435F14A205FC002919E2 /* NSString+SBJSON.h */,
+				221E436014A205FC002919E2 /* NSString+SBJSON.m */,
+				221E436114A205FC002919E2 /* SBJSON.h */,
+				221E436214A205FC002919E2 /* SBJSON.m */,
+				221E436314A205FC002919E2 /* SBJsonBase.h */,
+				221E436414A205FC002919E2 /* SBJsonBase.m */,
+				221E436514A205FC002919E2 /* SBJsonParser.h */,
+				221E436614A205FC002919E2 /* SBJsonParser.m */,
+				221E436714A205FC002919E2 /* SBJsonWriter.h */,
+				221E436814A205FC002919E2 /* SBJsonWriter.m */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -548,7 +548,6 @@
 		22511E1211B213FC0021FBCB /* GoogleApp */ = {
 			isa = PBXGroup;
 			children = (
-				2215F81511BAA24100B75128 /* JSON */,
 				22511E1511B253760021FBCB /* GoogleReaderController.h */,
 				22511E1611B253760021FBCB /* GoogleReaderController.m */,
 				2251221011B3F3A30021FBCB /* GoogleAuthManager.h */,
@@ -566,7 +565,7 @@
 				229A1D19126F1CD400E51BF9 /* GRATOMXMLParser_new+private.h */,
 				229A1D0F126F18A300E51BF9 /* GRATOMXMLParser_new.m */,
 			);
-			name = GoogleApp;
+			path = GoogleApp;
 			sourceTree = "<group>";
 		};
 		228E70F41212CF0D0088D3B1 /* ViewControllers */ = {
@@ -629,23 +628,23 @@
 		229BB95C11FC34DF00AACA1A /* Downloader */ = {
 			isa = PBXGroup;
 			children = (
-				229BB9B011FC826F00AACA1A /* GRDownloadManager.h */,
-				229BB9B111FC826F00AACA1A /* GRDownloadManager.m */,
-				229BB9B711FC844B00AACA1A /* GRSubDownloader.h */,
-				229BB9B811FC844B00AACA1A /* GRSubDownloader.m */,
-				229BBAF11201B5E700AACA1A /* GRItemDownloader.h */,
-				229BBAF21201B5E700AACA1A /* GRItemDownloader.m */,
-				229BBAC0120079FA00AACA1A /* ImageDownloader.h */,
-				229BBAC1120079FA00AACA1A /* ImageDownloader.m */,
-				229BBCB812041B8000AACA1A /* GoogleReaderStoreModel.xcdatamodel */,
-				224485A9121ED35A00EC90BD /* GRSubModel.h */,
-				224485AA121ED35A00EC90BD /* GRSubModel.m */,
-				229BBCC41204217000AACA1A /* GRItemModel.h */,
-				229BBCC51204217000AACA1A /* GRItemModel.m */,
-				229BBCF21204260600AACA1A /* GRObjectsManager.h */,
-				229BBCF31204260600AACA1A /* GRObjectsManager.m */,
+				221E438614A2070E002919E2 /* GoogleReaderStoreModel.xcdatamodel */,
+				221E438714A2070E002919E2 /* GRDownloadManager.h */,
+				221E438814A2070E002919E2 /* GRDownloadManager.m */,
+				221E438914A2070E002919E2 /* GRItemDownloader.h */,
+				221E438A14A2070E002919E2 /* GRItemDownloader.m */,
+				221E438B14A2070E002919E2 /* GRItemModel.h */,
+				221E438C14A2070E002919E2 /* GRItemModel.m */,
+				221E438D14A2070E002919E2 /* GRObjectsManager.h */,
+				221E438E14A2070E002919E2 /* GRObjectsManager.m */,
+				221E438F14A2070E002919E2 /* GRSubDownloader.h */,
+				221E439014A2070E002919E2 /* GRSubDownloader.m */,
+				221E439114A2070E002919E2 /* GRSubModel.h */,
+				221E439214A2070E002919E2 /* GRSubModel.m */,
+				221E439314A2070E002919E2 /* ImageDownloader.h */,
+				221E439414A2070E002919E2 /* ImageDownloader.m */,
 			);
-			name = Downloader;
+			path = Downloader;
 			sourceTree = "<group>";
 		};
 		22A3E7A1124F7822006A22E9 /* Icons */ = {
@@ -776,6 +775,7 @@
 		22C7EE1211CCA24B00AEA6A1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				221E435B14A205FC002919E2 /* JSON */,
 				229BB95C11FC34DF00AACA1A /* Downloader */,
 				229BB6CE11F889E100AACA1A /* RegexKitLite */,
 				22511E1211B213FC0021FBCB /* GoogleApp */,
@@ -791,25 +791,25 @@
 		22D8324C11C29AF400E7AB78 /* Reader */ = {
 			isa = PBXGroup;
 			children = (
-				2215F83511BD2B5100B75128 /* GRFeed.h */,
-				2215F83611BD2B5100B75128 /* GRFeed.m */,
-				2215F83811BD2B5E00B75128 /* GRItem.h */,
-				2215F83911BD2B5E00B75128 /* GRItem.m */,
-				22C7F41A11CE294400AEA6A1 /* GRTag.h */,
-				22C7F41B11CE294400AEA6A1 /* GRTag.m */,
-				22C7F41D11CE295400AEA6A1 /* GRSubscription.h */,
-				22C7F41E11CE295400AEA6A1 /* GRSubscription.m */,
-				22C7ED8D11CBD4C700AEA6A1 /* GRDataManager.h */,
-				22C7ED8E11CBD4C700AEA6A1 /* GRDataManager.m */,
-				222D54FB11D4490D0002830C /* GRBaseProtocol.h */,
-				22113AB31279C72600DE2FEE /* GRDiscover.h */,
-				22113AB41279C72600DE2FEE /* GRDiscover.m */,
-				22E134C71281A7E0000CE2D5 /* GRRecFeed.h */,
-				22E134C81281A7E0000CE2D5 /* GRRecFeed.m */,
-				22E134E81281A9CA000CE2D5 /* GRRecItem.h */,
-				22E134E91281A9CA000CE2D5 /* GRRecItem.m */,
+				221E43D014A207FA002919E2 /* GRBaseProtocol.h */,
+				221E43D114A207FA002919E2 /* GRDataManager.h */,
+				221E43D214A207FA002919E2 /* GRDataManager.m */,
+				221E43D314A207FA002919E2 /* GRDiscover.h */,
+				221E43D414A207FA002919E2 /* GRDiscover.m */,
+				221E43D714A207FA002919E2 /* GRFeed.h */,
+				221E43D814A207FA002919E2 /* GRFeed.m */,
+				221E43D914A207FA002919E2 /* GRItem.h */,
+				221E43DA14A207FA002919E2 /* GRItem.m */,
+				221E43E114A207FA002919E2 /* GRRecFeed.h */,
+				221E43E214A207FA002919E2 /* GRRecFeed.m */,
+				221E43E314A207FA002919E2 /* GRRecItem.h */,
+				221E43E414A207FA002919E2 /* GRRecItem.m */,
+				221E43E914A207FA002919E2 /* GRSubscription.h */,
+				221E43EA14A207FA002919E2 /* GRSubscription.m */,
+				221E43EB14A207FA002919E2 /* GRTag.h */,
+				221E43EC14A207FA002919E2 /* GRTag.m */,
 			);
-			name = Reader;
+			path = Reader;
 			sourceTree = "<group>";
 		};
 		2860E324111B887F00E27156 /* iPhone */ = {
@@ -850,6 +850,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				221C98D414C1378000D3F699 /* libxml2.2.dylib */,
 				22C7EE1211CCA24B00AEA6A1 /* Model */,
 				2860E32A111B888700E27156 /* iPad */,
 				2860E324111B887F00E27156 /* iPhone */,
@@ -882,7 +883,6 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				229A1CF3126F171700E51BF9 /* libxml2.2.dylib */,
 				22C27C2711E0831E00A2CAA0 /* MessageUI.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
@@ -1043,14 +1043,6 @@
 				2251221211B3F3A30021FBCB /* GoogleAuthManager.m in Sources */,
 				22B905D211B6950A0026F575 /* TestViewController.m in Sources */,
 				2215F70911B9F14900B75128 /* GoogleAppConstants.m in Sources */,
-				2215F82311BAA24100B75128 /* NSObject+SBJSON.m in Sources */,
-				2215F82411BAA24100B75128 /* NSString+SBJSON.m in Sources */,
-				2215F82511BAA24100B75128 /* SBJSON.m in Sources */,
-				2215F82611BAA24100B75128 /* SBJsonBase.m in Sources */,
-				2215F82711BAA24100B75128 /* SBJsonParser.m in Sources */,
-				2215F82811BAA24100B75128 /* SBJsonWriter.m in Sources */,
-				2215F83711BD2B5100B75128 /* GRFeed.m in Sources */,
-				2215F83A11BD2B5E00B75128 /* GRItem.m in Sources */,
 				2215F89D11BD414900B75128 /* URLParameterSet.m in Sources */,
 				22D8325B11C29E2600E7AB78 /* GoogleMessageParsers.m in Sources */,
 				22D832FE11C3B92000E7AB78 /* GRATOMXMLParser.m in Sources */,
@@ -1058,13 +1050,10 @@
 				22C7ED2511CBCCE700AEA6A1 /* TagViewController.m in Sources */,
 				22C7ED2A11CBCCF500AEA6A1 /* FeedViewController.m in Sources */,
 				22C7ED7E11CBD28A00AEA6A1 /* OnlineReaderNavigationController.m in Sources */,
-				22C7ED8F11CBD4C700AEA6A1 /* GRDataManager.m in Sources */,
 				22C7EE1511CCA2A500AEA6A1 /* HomeDataSource.m in Sources */,
 				22C7EE1811CCA2BE00AEA6A1 /* TagDataSource.m in Sources */,
 				22C7EE1B11CCA2DD00AEA6A1 /* FeedDataSource.m in Sources */,
 				22C7F40211CE215F00AEA6A1 /* ItemTableViewCell.m in Sources */,
-				22C7F41C11CE294400AEA6A1 /* GRTag.m in Sources */,
-				22C7F41F11CE295400AEA6A1 /* GRSubscription.m in Sources */,
 				22C7F81F11CFBE1C00AEA6A1 /* LoginViewController.m in Sources */,
 				22C7F9CE11D0F9DD00AEA6A1 /* BaseReaderDataSouce.m in Sources */,
 				222D551C11D452E10002830C /* TagSubTableViewCell.m in Sources */,
@@ -1077,13 +1066,6 @@
 				229BB5B111F5E03300AACA1A /* UserPreferenceDefine.m in Sources */,
 				229BB6CC11F889D500AACA1A /* RegexKitLite.m in Sources */,
 				229BB99811FC3E0200AACA1A /* NSString+MD5.m in Sources */,
-				229BB9B211FC826F00AACA1A /* GRDownloadManager.m in Sources */,
-				229BB9B911FC844B00AACA1A /* GRSubDownloader.m in Sources */,
-				229BBAC2120079FA00AACA1A /* ImageDownloader.m in Sources */,
-				229BBAF31201B5E700AACA1A /* GRItemDownloader.m in Sources */,
-				229BBCB912041B8000AACA1A /* GoogleReaderStoreModel.xcdatamodel in Sources */,
-				229BBCC61204217000AACA1A /* GRItemModel.m in Sources */,
-				229BBCF41204260600AACA1A /* GRObjectsManager.m in Sources */,
 				221819A5120DA6C5003E9170 /* DownloaderHomeViewController.m in Sources */,
 				221819AF120DA8DB003E9170 /* AllSubscriptionViewController.m in Sources */,
 				221819B2120DA8E9003E9170 /* DownloaderViewController.m in Sources */,
@@ -1094,7 +1076,6 @@
 				2244827E121C33B500EC90BD /* TSCellBackgroundView.m in Sources */,
 				224483C3121D879600EC90BD /* DownloadedItemsViewController.m in Sources */,
 				2244850F121EB95500EC90BD /* MainTabBarController_pad.m in Sources */,
-				224485AB121ED35A00EC90BD /* GRSubModel.m in Sources */,
 				22448623121F7DB300EC90BD /* DownloadedItemsDataSource.m in Sources */,
 				22312F861233391D005FFA7F /* MainSplitViewController.m in Sources */,
 				2231327612339218005FFA7F /* JJSplitViewController.m in Sources */,
@@ -1106,18 +1087,37 @@
 				22A3E7EE124F84B7006A22E9 /* DefaultScreenPhone.m in Sources */,
 				22A3E802124F86A7006A22E9 /* DefaultScreenPad.m in Sources */,
 				229A1D10126F18A300E51BF9 /* GRATOMXMLParser_new.m in Sources */,
-				22113AB51279C72600DE2FEE /* GRDiscover.m in Sources */,
 				22113B581279D26600DE2FEE /* RecommendedFeedsViewController.m in Sources */,
 				22E96098127DB3000027C1AE /* RecFeedsDataSource.m in Sources */,
 				22E1348512819AF7000CE2D5 /* RecFeedsCell.m in Sources */,
-				22E134C91281A7E0000CE2D5 /* GRRecFeed.m in Sources */,
-				22E134EA1281A9CA000CE2D5 /* GRRecItem.m in Sources */,
 				2262AEF71285684A006578E3 /* ChooseLabelForSubController.m in Sources */,
 				222A79F5128836B8002BC57E /* AddNewTagViewController.m in Sources */,
 				22E8579B129556430083913D /* SearchFeedsViewController.m in Sources */,
 				22E8580312955F7E0083913D /* SearchFeedsDataSource.m in Sources */,
 				22C34D6D12B34E7F0065079C /* AddNewFeedViewController.m in Sources */,
 				22305C5912B8F69800CFF224 /* ItemWebView.m in Sources */,
+				221E436914A205FC002919E2 /* NSObject+SBJSON.m in Sources */,
+				221E436A14A205FC002919E2 /* NSString+SBJSON.m in Sources */,
+				221E436B14A205FC002919E2 /* SBJSON.m in Sources */,
+				221E436C14A205FC002919E2 /* SBJsonBase.m in Sources */,
+				221E436D14A205FC002919E2 /* SBJsonParser.m in Sources */,
+				221E436E14A205FC002919E2 /* SBJsonWriter.m in Sources */,
+				221E439514A2070E002919E2 /* GoogleReaderStoreModel.xcdatamodel in Sources */,
+				221E439614A2070E002919E2 /* GRDownloadManager.m in Sources */,
+				221E439714A2070E002919E2 /* GRItemDownloader.m in Sources */,
+				221E439814A2070E002919E2 /* GRItemModel.m in Sources */,
+				221E439914A2070E002919E2 /* GRObjectsManager.m in Sources */,
+				221E439A14A2070E002919E2 /* GRSubDownloader.m in Sources */,
+				221E439B14A2070E002919E2 /* GRSubModel.m in Sources */,
+				221E439C14A2070E002919E2 /* ImageDownloader.m in Sources */,
+				221E43EF14A207FA002919E2 /* GRDataManager.m in Sources */,
+				221E43F014A207FA002919E2 /* GRDiscover.m in Sources */,
+				221E43F214A207FA002919E2 /* GRFeed.m in Sources */,
+				221E43F314A207FA002919E2 /* GRItem.m in Sources */,
+				221E43F714A207FA002919E2 /* GRRecFeed.m in Sources */,
+				221E43F814A207FA002919E2 /* GRRecItem.m in Sources */,
+				221E43FB14A207FA002919E2 /* GRSubscription.m in Sources */,
+				221E43FC14A207FA002919E2 /* GRTag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1159,6 +1159,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SmallReader_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG_MODE;
+				HEADER_SEARCH_PATHS = (
+					"/usr/include/libxml2/**",
+					"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/**",
+				);
 				INFOPLIST_FILE = "BreezyReader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -1178,6 +1182,10 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SmallReader_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"/usr/include/libxml2/**",
+					"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/**",
+				);
 				INFOPLIST_FILE = "BreezyReader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -1199,7 +1207,10 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = (
@@ -1220,6 +1231,10 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SmallReader_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"/usr/include/libxml2/**",
+					"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/**",
+				);
 				INFOPLIST_FILE = "BreezyReader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -1241,7 +1256,10 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				MallocStackLogging = YES;
 				OTHER_LDFLAGS = (
@@ -1263,7 +1281,10 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = (
